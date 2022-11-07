@@ -2,7 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: hotpink;
+    background-color: rgba(142, 199, 253, 0.6);
     color: white;
     overflow: hidden;
 }
@@ -13,6 +13,8 @@ html, body{
     height: 100vh;
     padding: 0;
     margin: 0;
+    font-family: 'Raleway';
+    color: white;
 }
 
 .main-image
@@ -20,10 +22,39 @@ html, body{
     background-image: url('/static/cover.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 10%;
     height: 100vh;
 }
 
 .mask{
     height: 100vh;
-    background-color: rgba(142, 199, 253, 0.6);
+    background-color: rgba(155, 206, 253, 0.473);
+    background: -moz-linear-gradient(0deg, rgba(29,48,66,1) 5%, rgba(155,206,255,0.6) 80%);
+    background: -webkit-linear-gradient(0deg, rgba(29,48,66,1) 5%, rgba(155,206,255,0.6) 80%);
+    background: linear-gradient(0deg, rgba(29,48,66,1) 5%, rgba(155,206,255,0.6) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1d3042",endColorstr="#9bceff",GradientType=1);
+    align-items: center;
+}
+
+.h{
+    font-weight: 900;
+}
+
+.imtired{
+    color:white;
+    text-decoration: underline;
+}
+
+.imtired:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.h3{
+    font-weight: 600;
+}
+
+.adi-tiny{
+    max-width: 80%;
+    height: auto;
 }
