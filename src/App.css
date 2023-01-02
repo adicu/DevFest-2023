@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+.window {
+  position: absolute;
+  top: 100;
+  left: 0;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #808080;
+  border-radius: 6px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background-color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.window-titlebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  border-bottom: 1px solid #808080;
+  background-color: #d4d0c8;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: move;
 }
 
-.App-link {
-  color: #61dafb;
+.window-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  flex-grow: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.window-controls {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.window-controls button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.window-controls button:hover {
+  background-color: #f1f1f1;
+}
+
+.window-content {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 25px);
+  overflow: auto;
+  padding: 10px;
+}
+
+.taskbar {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #d4d0c8;
+  border-top: 1px solid #808080;
+  display: flex;
+  align-items: center;
+}
+
+.taskbar-button {
+  font-size: 14px;
+  padding: 0 10px;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.taskbar-countdown-timer {
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.desktop {
+  position: absolute;
+  top: 30px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background-image: url('./Assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.desktop-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
