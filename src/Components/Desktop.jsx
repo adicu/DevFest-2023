@@ -5,7 +5,7 @@ const Desktop = () => {
         <>
             <div className="desktop">
                 {/* icons go here? */}
-                <DefaultIcon/>
+                <DefaultIcon mobile={false}/>
             </div>
         </>
     )

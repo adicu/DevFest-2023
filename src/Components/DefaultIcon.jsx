@@ -4,7 +4,7 @@ import DefaultWindow from "./DefaultWindow";
 
 let Draggable = require("react-draggable");
 
-function DefaultIcon() {
+function DefaultIcon(props) {
   const DivDraggable = styled.div`
     cursor: move;
   `;
@@ -19,7 +19,9 @@ function DefaultIcon() {
     setVisible(true);
   };
 
-  return (
+  return props.mobile ? (
+    <DefaultWindow closeWindow={null} mobile={true} />
+  ) : (
     <>
       <Draggable
         handle=".draggable-icon"
@@ -41,7 +43,9 @@ function DefaultIcon() {
         </DivDraggable>
       </Draggable>
 
-      {visible ? <DefaultWindow closeWindow={closeWindow} /> : null}
+      {visible ? (
+        <DefaultWindow closeWindow={closeWindow} mobile={false} />
+      ) : null}
     </>
   );
 }

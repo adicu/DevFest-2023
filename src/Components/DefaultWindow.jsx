@@ -10,7 +10,7 @@ function DefaultWindow(props) {
         position={null}
         grid={[25, 25]}
         scale={1}
-        disabled={false}
+        disabled={props.mobile}
       >
         <div>
           <div className="window">
