@@ -21,7 +21,7 @@ function DefaultWindow(props) {
               </div>
             </div>
             <div className="window-content">
-              <h1>DevFest is Back</h1>
+              <h1>DEVFEST IS BACK!</h1>
               <p>Text goes here: blah blah blah</p>
               {/* PLACE ALL OF THE DEFAULT WINDOW CONTENT HERE */}
             </div>
