@@ -22,8 +22,10 @@ function DefaultWindow(props) {
             </div>
             <div className="window-content">
               <h1>DEVFEST IS BACK!</h1>
-              <p>Text goes here: blah blah blah</p>
-              {/* PLACE ALL OF THE DEFAULT WINDOW CONTENT HERE */}
+              <p>This week-long celebration of all things tech features workshops, speaker panels, and a hackathon to end all hackathons.</p>
+              <p>Whether you're just getting started in the world of programming or you're a seasoned pro, DevFest has something for you.</p>
+              <p>Come join us and learn new skills, discover cutting-edge technologies, and build amazing projects.</p>
+              <p>Sign up now and be a part of history.</p>
             </div>
           </div>
         </div>
