@@ -1,23 +1,25 @@
 import styled from "@emotion/styled";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import DefaultWindow from "./DefaultWindow";
 
 let Draggable = require("react-draggable");
 
 function DefaultIcon(props) {
-  const DivDraggable = styled.div`
-    cursor: move;
-  `;
+  const iconImage = require("../Assets/DevFest-Logo-128px.png");
 
-  const [visible, setVisible] = useState(true);
+  const [visibleWindow, setVisibleWindow] = useState(true);
 
   const closeWindow = () => {
-    setVisible(false);
+    setVisibleWindow(false);
   };
 
   const openWindow = () => {
-    setVisible(true);
+    setVisibleWindow(true);
   };
+
+  const DivDraggable = styled.div`
+    cursor: move;
+  `;
 
   return props.mobile ? (
     <DefaultWindow closeWindow={null} mobile={true} />
@@ -27,23 +29,22 @@ function DefaultIcon(props) {
         handle=".draggable-icon"
         defaultPosition={{ x: 10, y: 150 }}
         position={null}
-        grid={[25, 25]}
+        grid={[50, 50]}
         scale={1}
         disabled={false}
       >
-        <DivDraggable className="draggable-icon">
-          <a onClick={openWindow}>
-            <img
-              height={100}
-              src={require("../Assets/DevFest-Logo.png")}
-              alt="DevFest 23 Icon"
-            />
-            <figcaption>DEVFEST 23</figcaption>
-          </a>
+        <DivDraggable className="draggable-icon" onClick={openWindow}>
+          <img
+            height={100}
+            src={iconImage}
+            alt="DevFest 23 Icon"
+            draggable={false}
+          />
+          <figcaption>DEVFEST 23</figcaption>
         </DivDraggable>
       </Draggable>
 
-      {visible ? (
+      {visibleWindow ? (
         <DefaultWindow closeWindow={closeWindow} mobile={false} />
       ) : null}
     </>
