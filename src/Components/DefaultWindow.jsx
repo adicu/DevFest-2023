@@ -26,6 +26,9 @@ function DefaultWindow(props) {
               <p>Whether you're just getting started in the world of programming or you're a seasoned pro, DevFest has something for you.</p>
               <p>Come join us and learn new skills, discover cutting-edge technologies, and build amazing projects.</p>
               <p>Sign up now and be a part of history.</p>
+              <div className="window-register">
+                <button>Register</button>
+              </div>
             </div>
           </div>
         </div>
