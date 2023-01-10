@@ -1,4 +1,3 @@
-import styled from "@emotion/styled";
 import React, { useState } from "react";
 import DefaultWindow from "./DefaultWindow";
 
@@ -17,23 +16,33 @@ function DefaultIcon(props) {
     setVisibleWindow(true);
   };
 
-  const DivDraggable = styled.div`
-    cursor: move;
-  `;
+  let isDragging = false;
 
   return props.mobile ? (
     <DefaultWindow closeWindow={null} mobile={true} />
   ) : (
     <>
+      <style jsx>{`
+        .draggable-icon {
+          cursor: move;
+        }
+      `}</style>
       <Draggable
         handle=".draggable-icon"
         defaultPosition={{ x: 10, y: 150 }}
         position={null}
-        grid={[50, 50]}
+        grid={[25, 25]}
         scale={1}
         disabled={false}
+        onDrag={() => (isDragging = true)}
+        onStop={() => {
+          if (!isDragging) {
+            openWindow();
+          }
+          isDragging = false;
+        }}
       >
-        <DivDraggable className="draggable-icon" onClick={openWindow}>
+        <div className="draggable-icon">
           <img
             height={100}
             src={iconImage}
@@ -41,7 +50,7 @@ function DefaultIcon(props) {
             draggable={false}
           />
           <figcaption>DEVFEST 23</figcaption>
-        </DivDraggable>
+        </div>
       </Draggable>
 
       {visibleWindow ? (
