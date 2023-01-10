@@ -33,9 +33,13 @@ function Icon(props) {
       mobile={props.mobile}
       winX={props.winX}
       winY={props.winY}
+      winXMobile={props.winXMobile}
+      winYMobile={props.winYMobile}
       winTitle={props.winTitle}
       winHeight={props.winHeight}
       winWidth={props.winWidth}
+      winHeightMobile={props.winHeightMobile}
+      winWidthMobile={props.winWidthMobile}
       winBGimg={props.winBGimg}
       winBGcol={props.winBGcol}
       winBGsize={props.winBGsize}
@@ -50,6 +54,7 @@ function Icon(props) {
           cursor: move;
           width: ${props.icoSize}px;
           height: ${props.icoSize}px;
+          user-select: none;
         }
       `}</style>
       <Draggable
@@ -86,9 +91,13 @@ function Icon(props) {
             mobile={props.mobile}
             winX={props.winX}
             winY={props.winY}
+            winXMobile={props.winXMobile}
+            winYMobile={props.winYMobile}
             winTitle={props.winTitle}
             winHeight={props.winHeight}
             winWidth={props.winWidth}
+            winHeightMobile={props.winHeightMobile}
+            winWidthMobile={props.winWidthMobile}
             winBGimg={props.winBGimg}
             winBGcol={props.winBGcol}
             winBGsize={props.winBGsize}

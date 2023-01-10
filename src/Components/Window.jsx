@@ -12,11 +12,17 @@ let Draggable = require("react-draggable");
  * @param props
  */
 function Window(props) {
+  const xPos = props.mobile ? props.winXMobile : props.winX;
+  const yPos = props.mobile ? props.winYMobile : props.winY;
+
+  const width = props.mobile ? props.winWidthMobile : props.winWidth;
+  const height = props.mobile ? props.winHeightMobile : props.winHeight;
+
   return (
     <>
       <Draggable
         handle=".window-titlebar"
-        defaultPosition={{ x: props.winX, y: props.winY }}
+        defaultPosition={{ x: xPos, y: yPos }}
         position={null}
         grid={[25, 25]}
         scale={1}
@@ -25,13 +31,19 @@ function Window(props) {
         <div>
           <style jsx>{`
             .window {
-              width: ${props.winWidth};
-              height: ${props.winHeight};
+              width: ${width};
+              height: ${height};
               background-color: ${props.winBGcol};
               background-image: url(${props.winBGimg});
               background-size: ${props.winBGsize};
               background-repeat: ${props.winBGrepeat};
               background-position: center;
+            }
+            .window-title {
+              user-select: none;
+            }
+            .window-content {
+              height: 85%;
             }
           `}</style>
           <div className="window">
