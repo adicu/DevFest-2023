@@ -55,6 +55,8 @@ function Icon(props) {
           width: ${props.icoSize}px;
           height: ${props.icoSize}px;
           user-select: none;
+          position: absolute;
+          z-index: -1;
         }
       `}</style>
       <Draggable
