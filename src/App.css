@@ -2,11 +2,11 @@
   position: absolute;
   top: 100;
   left: 0;
-  width: 550px;
-  height: 460px;
+  /* width: 550px; */
+  /* height: 460px; */
   border: 1px solid #808080;
   border-radius: 6px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background-color: #f8ecd4;
 }
 
@@ -28,6 +28,7 @@
   font-weight: bold;
   margin-left: 10px;
   flex-grow: 1;
+  user-select: none;
 }
 
 .window-controls {
@@ -52,12 +53,12 @@
   position: absolute;
   top: 25px;
   left: 0;
-  width: 95%;
-  height: calc(100% - 25px);
+  /* width: 95%; */
+  /* height: calc(100% - 25px); */
   overflow: auto;
   padding: 10px;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: large;
 }
 
@@ -67,7 +68,7 @@
   border-color: #f1f1f1;
   background-color: orange;
   cursor: pointer;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: large;
 }
 
@@ -110,7 +111,7 @@
   left: 0;
   right: 0;
   overflow: hidden;
-  background-image: url('./Assets/background.jpg');
+  background-image: url("./Assets/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;

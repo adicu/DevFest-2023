@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styled from "@emotion/styled";
 import Window from "./Window";
 
 let Draggable = require("react-draggable");
@@ -27,6 +28,19 @@ function Icon(props) {
 
   let isDragging = false;
 
+  const DraggableIcon = styled.div`
+    cursor: move;
+    width: ${props.icoSize}px;
+    height: ${props.icoSize}px;
+    user-select: none;
+    position: absolute;
+    z-index: -1;
+  `;
+
+  const Caption = styled.figcaption`
+    color: ${props.icoCapColor};
+  `;
+
   return props.mobile ? (
     <Window
       closeWindow={closeWindow}
@@ -49,16 +63,6 @@ function Icon(props) {
     </Window>
   ) : (
     <>
-      <style jsx>{`
-        .draggable-icon {
-          cursor: move;
-          width: ${props.icoSize}px;
-          height: ${props.icoSize}px;
-          user-select: none;
-          position: absolute;
-          z-index: -1;
-        }
-      `}</style>
       <Draggable
         handle=".draggable-icon"
         defaultPosition={{ x: props.icoX, y: props.icoY }}
@@ -74,7 +78,7 @@ function Icon(props) {
           isDragging = false;
         }}
       >
-        <div className="draggable-icon">
+        <DraggableIcon className="draggable-icon">
           <img
             height={props.icoSize}
             width={props.icoSize}
@@ -82,8 +86,8 @@ function Icon(props) {
             alt={props.icoAlt}
             draggable={false}
           />
-          <figcaption>{props.icoCap}</figcaption>
-        </div>
+          <Caption>{props.icoCap}</Caption>
+        </DraggableIcon>
       </Draggable>
 
       {visibleWindow ? (

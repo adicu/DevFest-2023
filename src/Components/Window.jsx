@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "@emotion/styled";
 let Draggable = require("react-draggable");
 
 /**
@@ -18,6 +19,24 @@ function Window(props) {
   const width = props.mobile ? props.winWidthMobile : props.winWidth;
   const height = props.mobile ? props.winHeightMobile : props.winHeight;
 
+  const Window = styled.div`
+    width: 550px; // default width if no prop
+    height: 460px; // default height if no prop
+    width: ${width};
+    height: ${height};
+    background-color: ${props.winBGcol};
+    background-image: url(${props.winBGimg});
+    background-size: ${props.winBGsize};
+    background-repeat: ${props.winBGrepeat};
+    background-position: center;
+  `;
+
+  const WindowContent = styled.div`
+    width: 95%;
+    height: 410px; // default height if no prop
+    height: calc(${height} - 50px);
+  `;
+
   return (
     <>
       <Draggable
@@ -28,38 +47,19 @@ function Window(props) {
         scale={1}
         disabled={props.mobile}
       >
-        <div>
-          <style jsx>{`
-            .window {
-              width: ${width};
-              height: ${height};
-              background-color: ${props.winBGcol};
-              background-image: url(${props.winBGimg});
-              background-size: ${props.winBGsize};
-              background-repeat: ${props.winBGrepeat};
-              background-position: center;
-            }
-            .window-title {
-              user-select: none;
-            }
-            .window-content {
-              height: 85%;
-            }
-          `}</style>
-          <div className="window">
-            <div className="window-titlebar">
-              <div className="window-title" draggable={false}>
-                {props.winTitle}
-              </div>
-              <div className="window-controls" draggable={false}>
-                <button onClick={props.closeWindow}>X</button>
-              </div>
+        <Window className="window">
+          <div className="window-titlebar">
+            <div className="window-title" draggable={false}>
+              {props.winTitle}
             </div>
-            <div className="window-content" draggable={false}>
-              {props.children}
+            <div className="window-controls" draggable={false}>
+              <button onClick={props.closeWindow}>X</button>
             </div>
           </div>
-        </div>
+          <WindowContent className="window-content" draggable={false}>
+            {props.children}
+          </WindowContent>
+        </Window>
       </Draggable>
     </>
   );

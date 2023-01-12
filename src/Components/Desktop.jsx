@@ -1,12 +1,15 @@
-import DefaultWindow from "./DefaultWindow";
 import { isMobile } from "react-device-detect";
+
+import WindowDefault from "./WindowDefault";
+import WindowTest from "./WindowTest";
 
 const Desktop = () => {
   return (
     <>
       <div className="desktop">
         {/* Add custom components like DefaultWindow here */}
-        <DefaultWindow mobile={isMobile} />
+        <WindowDefault mobile={isMobile} />
+        <WindowTest mobile={isMobile} />
       </div>
     </>
   );
