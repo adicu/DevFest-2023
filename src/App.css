@@ -16,19 +16,23 @@
   left: 0;
   width: 100%;
   height: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   border-bottom: 1px solid #808080;
-  background-color: #d4d0c8;
+  background-color: #CCCCCC;
   display: flex;
   align-items: center;
+  text-align: center;
+  box-shadow: inset 0em 0.2em 0em 0 rgba(255,255,255,0.5), inset -0em -0.2em 0em 0 rgba(0,0,0,0.2);  
   cursor: move;
 }
 
 .window-title {
-  font-size: 16px;
-  font-weight: bold;
   margin-left: 10px;
   flex-grow: 1;
   user-select: none;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 1.2em;  
 }
 
 .window-controls {
@@ -40,7 +44,9 @@
 .window-controls button {
   width: 25px;
   height: 25px;
-  border: none;
+  border: 1px solid black;
+  box-shadow: inset -0.2em -0.2em 0em 0 rgba(0,0,0,0.2), inset 0.2em 0.2em 0em 0 rgba(255,255,255,0.5);
+  box-shadow:  0.2em 0.2em 0em 0 rgba(255,255,255,0.5), -0.2em -0.2em 0em 0 rgba(0,0,0,0.2),;
   background-color: transparent;
   cursor: pointer;
 }
@@ -60,6 +66,8 @@
   text-align: center;
   font-family: "Courier New", Courier, monospace;
   font-size: large;
+  /* outline: 5px solid #515151;
+  outline-offset: -5px; */
 }
 
 .window-content button {
@@ -91,6 +99,9 @@
   border-top: 1px solid #808080;
   display: flex;
   align-items: center;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 1.5em;
+  /* font-weight: bold; */
 }
 
 .taskbar-os-name{
