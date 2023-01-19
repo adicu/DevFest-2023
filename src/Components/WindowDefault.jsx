@@ -44,9 +44,9 @@ function WindowDefault(props) {
         winWidth="" // Window width ("" = default width in App.css)
         winHeight="500px" // Window height ("" = default height in App.css)
         winBGcol="" // Window background color (default("") = color in App.css)
-        winBGimg="" // Window background image (default("") = no background image)
-        winBGrepeat="" // Window background-repeat property (options: 'repeat' or 'no-repeat')
-        winBGsize="" // Window background size (options: 'cover', 'contain', etc.)
+        winBGimg={require("../Assets/MainWindow.png")} // Window background image (default("") = no background image)
+        winBGrepeat="no-repeat" // Window background-repeat property (options: 'repeat' or 'no-repeat')
+        winBGsize="cover" // Window background size (options: 'cover', 'contain', etc.)
         // --- Mobile-Specific Window Properties ---
         mobile={props.mobile} // (Inherited Prop; Don't change)
         winWidthMobile="90vw" // Window width on mobile
