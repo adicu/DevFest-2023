@@ -32,7 +32,8 @@
   flex-grow: 1;
   user-select: none;
   font-family: 'DotGothic16', sans-serif;
-  font-size: 1.2em;  
+  font-size: 1.2em; 
+  font-weight: bold; 
 }
 
 .window-controls {
@@ -61,7 +62,7 @@
   left: 0;
   /* width: 95%; */
   /* height: calc(100% - 25px); */
-  overflow: auto;
+  overflow: hidden;
   padding: 10px;
   text-align: center;
   font-family: "Courier New", Courier, monospace;

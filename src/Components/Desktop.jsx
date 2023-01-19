@@ -40,7 +40,7 @@ const Desktop = () => {
         {/* Add custom components like DefaultWindow here */}
         <WindowTabs mobile={mobile} winTitle="FAQs"/>
         <WindowDefault mobile={mobile} />
-        <WindowTest mobile={mobile} />
+        {/* <WindowTest mobile={mobile} /> */}
       </div>
     </>
   );

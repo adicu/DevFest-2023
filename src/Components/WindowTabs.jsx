@@ -18,7 +18,7 @@ function WindowTabs(props) {
       styled.h1``;
 
   // Paragraph component
-  const Q = props.mobile
+  const P = props.mobile
     ? // mobile
       styled.p`
         font-size: 15px;
@@ -54,7 +54,7 @@ function WindowTabs(props) {
         winWidthMobile="90vw" // Window width on mobile
         winHeightMobile="400px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={40} // Starting Y position of window in mobile mode
+        winYMobile={420} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>
@@ -67,11 +67,11 @@ function WindowTabs(props) {
             <TabPanel>
               <div className="notepad">
                 {
-                  FAQ.map((faq)=>{
-                    return <span><p className="q">{faq.question}</p><p className="a">{faq.answer}</p></span>
+                  FAQ.map((faq, index)=>{
+                    return <span><p className="q">{faq.question}</p><p className="a">{faq.answer}{(FAQ.length-1) === (index) ? <span className="cursor">|</span> : <span></span>}</p></span>
                   })
                 }
-                <Q>HELLO <span className="cursor">|</span></Q>
+                
               </div>
             </TabPanel>
             {/* <TabPanel>

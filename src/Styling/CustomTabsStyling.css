@@ -60,10 +60,22 @@
 .notepad{
     width: 100%;
     height: 22.4em;
-    background-color: #f1eee4;
+    background-color: #FFFCF5;
     border: 1px solid black;
     text-align: left;
     padding-left: 3px;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", "monaco", "Bitstream Vera Sans Mono", monospace;
+    overflow: auto;
+}
+
+.notepad .q{
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.notepad .a{
+    margin-top: 2px;
 }
 
 @keyframes blink {
@@ -73,5 +85,6 @@
 }
 
 .notepad .cursor{
+    font-weight: bold;
     animation: blink 1s steps(2) infinite;
 }
