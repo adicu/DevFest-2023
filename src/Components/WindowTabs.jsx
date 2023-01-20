@@ -31,15 +31,15 @@ function WindowTabs(props) {
       {/* ================== WINDOW & ICON PROPERTIES ================== */}
       <Icon
         // --- Icon Properties ---
-        icoSrc={require("../Assets/Icons/FAQ Icon.png")} // Icon image path
+        icoSrc={require("../Assets/Icons/FAQ-Icon.png")} // Icon image path
         icoAlt="DevFest 23 Icon" // Image alt message
         icoCap="FAQs" // Icon caption
         icoCapColor="black" // Icon caption text color
         icoX={10} // Starting X position of icon
         icoY={450} // Starting Y position of icon
-        icoSize={100} // Icon size, both height and width
+        icoSize={80} // Icon size, both height and width
         // --- Window Properties ---
-        winDefaultOpen={true} // True = Window open by default, False = it's not
+        winDefaultOpen={false} // True = Window open by default, False = it's not
         winTitle="FAQ" // Window title
         winX={300} // Starting X position of window
         winY={100} // Starting Y position of window
@@ -54,7 +54,7 @@ function WindowTabs(props) {
         winWidthMobile="90vw" // Window width on mobile
         winHeightMobile="400px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={420} // Starting Y position of window in mobile mode
+        winYMobile={820} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>
