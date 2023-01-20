@@ -10,19 +10,38 @@ function WindowDefault(props) {
     ? // mobile
       styled.h1`
         margin-top: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
         font-size: 22px;
       `
     : // desktop
-      styled.h1``;
+      styled.h1`
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+      `;
 
   // Paragraph component
   const P = props.mobile
     ? // mobile
       styled.p`
-        font-size: 15px;
+      font-size: 20px;
+      font-family: 'EB Garamond', serif;
+      font-weight: 500;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-shadow: #f8ecd4 3px 0px 0px, #f8ecd4 2.83487px 0.981584px 0px, #f8ecd4 2.35766px 1.85511px 0px, #f8ecd4 1.62091px 2.52441px 0px, #f8ecd4 0.705713px 2.91581px 0px, #f8ecd4 -0.287171px 2.98622px 0px, #f8ecd4 -1.24844px 2.72789px 0px, #f8ecd4 -2.07227px 2.16926px 0px, #f8ecd4 -2.66798px 1.37182px 0px, #f8ecd4 -2.96998px 0.42336px 0px, #f8ecd4 2.88051px -0.838247px 0px;
       `
     : // desktop
-      styled.p``;
+      styled.p`
+        font-family: 'EB Garamond', serif;
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        text-shadow: #f8ecd4 3px 0px 0px, #f8ecd4 2.83487px 0.981584px 0px, #f8ecd4 2.35766px 1.85511px 0px, #f8ecd4 1.62091px 2.52441px 0px, #f8ecd4 0.705713px 2.91581px 0px, #f8ecd4 -0.287171px 2.98622px 0px, #f8ecd4 -1.24844px 2.72789px 0px, #f8ecd4 -2.07227px 2.16926px 0px, #f8ecd4 -2.66798px 1.37182px 0px, #f8ecd4 -2.96998px 0.42336px 0px, #f8ecd4 2.88051px -0.838247px 0px;        
+        
+      `;
 
   return (
     <>

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import WindowDefault from "./WindowDefault";
 import WindowTest from "./WindowTest";
 import WindowTabs from "./WindowTabs";
+import Tracks from "./Tracks";
 
 const Desktop = () => {
   const mobileWidth = "850px";
@@ -38,9 +39,10 @@ const Desktop = () => {
       </style>
       <div className="desktop">
         {/* Add custom components like DefaultWindow here */}
-        <WindowTabs mobile={mobile} winTitle="FAQs"/>
-        <WindowDefault mobile={mobile} />
+        <WindowDefault mobile={mobile}/>
+        <Tracks mobile={mobile}/>        
         {/* <WindowTest mobile={mobile} /> */}
+        <WindowTabs mobile={mobile}/>        
       </div>
     </>
   );
