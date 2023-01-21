@@ -19,7 +19,7 @@ function Schedule(props) {
         icoCapColor="black" // Icon caption text color
         icoX={10} // Starting X position of icon
         icoY={600} // Starting Y position of icon
-        icoSize={80} // Icon size, both height and width
+        icoSize={70} // Icon size, both height and width
         // --- Window Properties ---
         winDefaultOpen={false} // True = Window open by default, False = it's not
         winTitle="Schedule" // Window title
