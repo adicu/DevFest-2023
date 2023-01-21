@@ -1,9 +1,13 @@
 import { useEffect, useState } from "react";
 
 import WindowDefault from "./WindowDefault";
-import WindowTest from "./WindowTest";
+// import WindowTest from "./WindowTest";
 import WindowTabs from "./WindowTabs";
 import Tracks from "./Tracks";
+import Judges from "./Judges";
+import Schedule from "./Schedule";
+import Speakers from "./Speakers";
+import Sponsors from "./Sponsors";
 
 const Desktop = () => {
   const mobileWidth = "850px";
@@ -40,7 +44,11 @@ const Desktop = () => {
       <div className="desktop">
         {/* Add custom components like DefaultWindow here */}
         <WindowDefault mobile={mobile}/>
-        <Tracks mobile={mobile}/>        
+        <Tracks mobile={mobile}/>
+        <Judges mobile={mobile}/>
+        <Schedule mobile={mobile}/>
+        <Speakers mobile={mobile}/>
+        <Sponsors mobile={mobile}/>            
         {/* <WindowTest mobile={mobile} /> */}
         <WindowTabs mobile={mobile}/>        
       </div>

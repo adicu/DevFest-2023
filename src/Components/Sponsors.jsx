@@ -4,7 +4,9 @@ import Icon from "./Icon";
 import {Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import '../Styling/CustomTabsStyling.css';
 import FAQ from '../Data/FAQ.json';
-function WindowTabs(props) {
+import FeatureFlags from '../Data/FeatureFlags.json';
+
+function Sponsors(props) {
   /* ============== STYLING (for Window Content) ============= */
 
   // Heading component
@@ -31,16 +33,16 @@ function WindowTabs(props) {
       {/* ================== WINDOW & ICON PROPERTIES ================== */}
       <Icon
         // --- Icon Properties ---
-        icoSrc={require("../Assets/Icons/FAQ-Icon.png")} // Icon image path
-        icoAlt="DevFest 23 Icon" // Image alt message
-        icoCap="FAQs" // Icon caption
+        icoSrc={require("../Assets/Icons/Sponsors-Icon.png")} // Icon image path
+        icoAlt="Sponsors Icon" // Image alt message
+        icoCap="Sponsors" // Icon caption
         icoCapColor="black" // Icon caption text color
-        icoX={750} // Starting X position of icon
-        icoY={200} // Starting Y position of icon
-        icoSize={80} // Icon size, both height and width
+        icoX={120} // Starting X position of icon
+        icoY={20} // Starting Y position of icon
+        icoSize={100} // Icon size, both height and width
         // --- Window Properties ---
         winDefaultOpen={false} // True = Window open by default, False = it's not
-        winTitle="FAQ" // Window title
+        winTitle="SPONSORS" // Window title
         winX={300} // Starting X position of window
         winY={100} // Starting Y position of window
         winWidth="" // Window width ("" = default width in App.css)
@@ -54,34 +56,33 @@ function WindowTabs(props) {
         winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="400px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={2490} // Starting Y position of window in mobile mode
+        winYMobile={2070} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>
-          <Tabs>
-            <TabList>
-              <Tab>FAQ.2.final.txt</Tab>
-              {/* <Tab>Title 2</Tab> */}
-            </TabList>
+          { !FeatureFlags.sponsors?
+            <div className="locked">
+              <img className="lock-icon" src={require("../Assets/Icons/lock.png")} alt="Content Locked"/>
+              <div className="blurred"><img alt="Schedule Locked" src={require("../Assets/Locked/Sponsors.jpg")}/> </div>
+            </div>
+          :          
+            <Tabs>
+              <TabList>
+                <Tab>FAQ.2.final.txt</Tab>
+                {/* <Tab>Title 2</Tab> */}
+              </TabList>
 
-            <TabPanel>
-              <div className="notepad">
-                {
-                  FAQ.map((faq, index)=>{
-                    return <span><p className="q">{faq.question}</p><p className="a">{faq.answer}{(FAQ.length-1) === (index) ? <span className="cursor">|</span> : <span></span>}</p></span>
-                  })
-                }
-                
-              </div>
-            </TabPanel>
-            {/* <TabPanel>
-              <h2>Any content 2</h2>
-            </TabPanel> */}
-          </Tabs> 
+              <TabPanel>
+                <div className="notepad">
+                  
+                </div>
+              </TabPanel>
+            </Tabs>
+          } 
         </div>
       </Icon>
     </>
   );
 }
 
-export default WindowTabs;
+export default Sponsors;

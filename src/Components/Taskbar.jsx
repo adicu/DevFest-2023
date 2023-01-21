@@ -64,7 +64,7 @@ const Taskbar = () => {
                 <span>DevFestOS</span>
             </div> 
             : 
-            <img className="taskbar-devfest-logo" alt="devfest-logo" src={require("../Assets/DevFest-Logo-64px.png")} /> 
+            <img className="taskbar-devfest-logo" alt="devfest-logo" src={require("../Assets/DevFest-Logo-Outline-128.png")} /> 
             }
             
             <div className="taskbar-countdown-timer">
