@@ -21,6 +21,7 @@
     list-style: none;
     padding: 6px 12px;
     cursor: pointer;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 .react-tabs__tab--selected {
@@ -55,6 +56,40 @@
 
 .react-tabs__tab-panel--selected {
     display: block;
+}
+
+.profile{
+    width: 100%;
+    height: fit-content;
+    font-family: 'EB Garamond', serif;
+    overflow: scroll;
+}
+
+.profile-image-bio{
+    display: table;
+    border-spacing: 5px;
+    height: max-content;
+}
+
+.profile-image{
+    display: table-cell;
+    width: 35%;
+    margin-right: 10px;
+    border: 5px solid #5A5A5A;
+}
+
+.profile img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.profile-bio{
+    display: table-cell;
+    width: 60%;
+    border: 5px solid #5A5A5A;
+    vertical-align: middle;
 }
 
 .notepad{

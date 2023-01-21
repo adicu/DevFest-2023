@@ -30,10 +30,10 @@ function Tracks(props) {
         winBGsize="cover" // Window background size (options: 'cover', 'contain', etc.)
         // --- Mobile-Specific Window Properties ---
         mobile={props.mobile} // (Inherited Prop; Don't change)
-        winWidthMobile="90vw" // Window width on mobile
+        winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="355px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={420} // Starting Y position of window in mobile mode
+        winYMobile={430} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div className="tracks-wrapper">
