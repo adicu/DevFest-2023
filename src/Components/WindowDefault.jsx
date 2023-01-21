@@ -1,6 +1,7 @@
 import React from "react";
 import Icon from "./Icon";
 import styled from "@emotion/styled";
+import links from "../Data/ExternalLinks.json"
 
 function WindowDefault(props) {
   /* ============== STYLING (for Window Content) ============= */
@@ -48,7 +49,7 @@ function WindowDefault(props) {
       {/* ================== WINDOW & ICON PROPERTIES ================== */}
       <Icon
         // --- Icon Properties ---
-        icoSrc={require("../Assets/DevFest-Logo-128px.png")} // Icon image path
+        icoSrc={require("../Assets/DevFest-Logo-Outline-128.png")} // Icon image path
         icoAlt="DevFest 23 Icon" // Image alt message
         icoCap="DEVFEST 23" // Icon caption
         icoCapColor="black" // Icon caption text color
@@ -68,7 +69,7 @@ function WindowDefault(props) {
         winBGsize="cover" // Window background size (options: 'cover', 'contain', etc.)
         // --- Mobile-Specific Window Properties ---
         mobile={props.mobile} // (Inherited Prop; Don't change)
-        winWidthMobile="90vw" // Window width on mobile
+        winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="400px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
         winYMobile={10} // Starting Y position of window in mobile mode
@@ -89,7 +90,9 @@ function WindowDefault(props) {
         </P>
         <P>Sign up now and be a part of history.</P>
         <div className="window-register">
+          <a href={links.register}>
           <button>Register</button>
+          </a>
         </div>
       </Icon>
     </>

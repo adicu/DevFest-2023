@@ -8,6 +8,7 @@
   border-radius: 6px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background-color: #f8ecd4;
+  padding-bottom: 10px;
 }
 
 .window-titlebar {
@@ -125,8 +126,9 @@
 
 .taskbar-devfest-logo{
   position: relative;
-  top: 20px;
-  left: 0px;
+  transform: scale(70%);
+  top: 27px;
+  left: -20px;
   right: auto;
   bottom: auto;
 }
@@ -163,24 +165,24 @@
   padding-bottom: 10px;
   padding-left: 5px;
   padding-right: 5px;
-  top: 75px;
+  top: 65px;
   text-align: center;
   visibility: hidden;
 }
 
-.taskbar-countdown-timer-tooltip:after {
+/* .taskbar-countdown-timer-tooltip:after {
 	content: '';
 	position: absolute;
 	top: 0;
 	left: 50%;
 	width: 0;
 	height: 0;
-	border: 1.125em solid transparent;
+	border: 1.125em solid black;
 	border-bottom-color: #F0EAD6;
 	border-top: 0;
 	margin-left: -1.125em;
 	margin-top: -1.125em;
-}
+} */
 
 .taskbar-countdown-timer {
   font-size: 14px;
@@ -221,7 +223,7 @@
 .track{
   display: flex;
   align-items: center;
-  background-color: aquamarine;
+  background-color: #f8ecd4;
   width: 100%;
   height: 100px;
   border: 1px solid black;
@@ -246,4 +248,33 @@
   background-image: url("./Assets/Tracks/AI-Data.png");
   background-size: cover;
   background-repeat: no-repeat;  
+}
+
+.locked{
+  width: 100%;
+  height: 300px; 
+}
+
+.blurred{
+  width: 100%;
+  height: 300px;
+  background-image: url("./Assets/Locked/Judges.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  -webkit-filter: blur(20px);
+  -moz-filter: blur(20px);
+  -o-filter: blur(20px);
+  -ms-filter: blur(20px);
+  filter: blur(20px)   
+}
+
+.lock-icon{
+  position: relative;
+  z-index: 1;
+  top: 30px;
+}
+
+.blurred img{
+  width: 100%;
+  object-fit: contain;
 }
