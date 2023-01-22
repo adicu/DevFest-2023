@@ -53,7 +53,7 @@ function Window(props) {
               {props.winTitle}
             </div>
             <div className="window-controls" draggable={false}>
-              <button onClick={props.closeWindow}>X</button>
+              <button onClick={props.closeWindow}>{props.mobile ? <></> : <span>X</span>}</button>
             </div>
           </div>
           <WindowContent className="window-content" draggable={false}>

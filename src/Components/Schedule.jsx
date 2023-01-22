@@ -36,7 +36,7 @@ function Schedule(props) {
         winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="400px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={805} // Starting Y position of window in mobile mode
+        winYMobile={855} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>

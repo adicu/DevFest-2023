@@ -17,7 +17,7 @@ function WindowDefault(props) {
       `
     : // desktop
       styled.h1`
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif; 
         font-size: 40px;
         font-weight: bold;
       `;
@@ -70,7 +70,7 @@ function WindowDefault(props) {
         // --- Mobile-Specific Window Properties ---
         mobile={props.mobile} // (Inherited Prop; Don't change)
         winWidthMobile="95vw" // Window width on mobile
-        winHeightMobile="400px" // Window height on mobile
+        winHeightMobile="450px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
         winYMobile={10} // Starting Y position of window in mobile mode
       >

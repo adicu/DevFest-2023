@@ -3,7 +3,6 @@ import Icon from "./Icon";
 // import styled from "@emotion/styled";
 import {Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import '../Styling/CustomTabsStyling.css';
-import FAQ from '../Data/FAQ.json';
 import FeatureFlags from '../Data/FeatureFlags.json';
 
 function Sponsors(props) {
@@ -42,7 +41,7 @@ function Sponsors(props) {
         icoSize={100} // Icon size, both height and width
         // --- Window Properties ---
         winDefaultOpen={false} // True = Window open by default, False = it's not
-        winTitle="SPONSORS" // Window title
+        winTitle="Sponsors" // Window title
         winX={300} // Starting X position of window
         winY={100} // Starting Y position of window
         winWidth="" // Window width ("" = default width in App.css)
@@ -56,7 +55,7 @@ function Sponsors(props) {
         winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="400px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={2070} // Starting Y position of window in mobile mode
+        winYMobile={2120} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>

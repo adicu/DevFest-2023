@@ -21,13 +21,13 @@ function Speakers(props) {
       styled.h1``;
 
   // Paragraph component
-  const P = props.mobile
-    ? // mobile
-      styled.p`
-        font-size: 15px;
-      `
-    : // desktop
-      styled.p``;
+  // const P = props.mobile
+  //   ? // mobile
+  //     styled.p`
+  //       font-size: 15px;
+  //     `
+  //   : // desktop
+  //     styled.p``;
 
   return (
     <>
@@ -43,7 +43,7 @@ function Speakers(props) {
         icoSize={80} // Icon size, both height and width
         // --- Window Properties ---
         winDefaultOpen={false} // True = Window open by default, False = it's not
-        winTitle="SPEAKERS" // Window title
+        winTitle="Speakers" // Window title
         winX={300} // Starting X position of window
         winY={100} // Starting Y position of window
         winWidth="" // Window width ("" = default width in App.css)
@@ -57,7 +57,7 @@ function Speakers(props) {
         winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="400px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={1225} // Starting Y position of window in mobile mode
+        winYMobile={1275} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>

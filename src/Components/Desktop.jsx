@@ -8,6 +8,7 @@ import Judges from "./Judges";
 import Schedule from "./Schedule";
 import Speakers from "./Speakers";
 import Sponsors from "./Sponsors";
+import Footer from "./Footer";
 
 const Desktop = () => {
   const mobileWidth = "850px";
@@ -44,6 +45,7 @@ const Desktop = () => {
       <div className="desktop">
         {/* Add custom components like DefaultWindow here */}
         <WindowDefault mobile={mobile}/>
+        <Footer mobile={mobile}/>
         <Tracks mobile={mobile}/>
         <Judges mobile={mobile}/>
         <Schedule mobile={mobile}/>
