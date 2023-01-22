@@ -1,42 +1,34 @@
 [
     {
-        "question":"What is DevFest?",
-        "answer":"DevFest is a thing that's happening"
+        "question":"Is the hackathon online or in-person?",
+        "answer":"DevFest will be held in-person."
     },
     {
         "question":"When is DevFest?",
-        "answer":"Right here, right now"
+        "answer":"DevFest runs from February 20th-26th, with the hackathon portion going from Friday evening to Sunday morning of that week."
     },
     {
-        "question":"This is a question",
-        "answer":"This is an answer"
+        "question":"Who is eligible to participate?",
+        "answer":"DevFest is open to all Columbia affiliates."
     },
     {
-        "question":"This is a Question",
-        "answer":"This is an answer"
+        "question":"What are the hackathon tracks and what do they mean?",
+        "answer":"The tracks provide participants with specific topics or fields to focus on while working on their projects. Additionally, these tracks align with workshops offered throughout DevFest week, allowing participants with little or no experience to attend a workshop and gain the knowledge needed to create a project for that track."
     },
     {
-        "question":"When is DevFest?",
-        "answer":"Right here, right now"
+        "question":"Do I have to follow a specific track?",
+        "answer":"No, you are welcome to submit a general project that does not belong to a specific track."
     },
     {
-        "question":"This is a question",
-        "answer":"This is an answer"
+        "question":"What is the team size limit?",
+        "answer":"Teams can have a maximum of 4 members."
     },
     {
-        "question":"This is a Question",
-        "answer":"This is an answer"
+        "question":"Can I participate as an individual or do I need to form a team?",
+        "answer":"Individual participation is allowed."
     },
     {
-        "question":"When is DevFest?",
-        "answer":"Right here, right now"
-    },
-    {
-        "question":"This is a question",
-        "answer":"This is an answer"
-    },
-    {
-        "question":"This is a Question",
-        "answer":"This is an answer"
-    }        
+        "question":"What should I do if I have a question or concern?",
+        "answer":"If you have any questions or concerns, please don't hesitate to reach out to us via email at devfestteam@googlegroups.com or via our Discord server where you can ping any of the organizers."
+    }   
 ]

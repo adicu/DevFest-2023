@@ -33,7 +33,7 @@ function Tracks(props) {
         winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="355px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={430} // Starting Y position of window in mobile mode
+        winYMobile={480} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div className="tracks-wrapper">

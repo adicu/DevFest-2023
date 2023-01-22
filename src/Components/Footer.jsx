@@ -3,8 +3,7 @@ import Icon from "./Icon";
 // import styled from "@emotion/styled";
 import {Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import '../Styling/CustomTabsStyling.css';
-import FAQ from '../Data/FAQ.json';
-function WindowTabs(props) {
+function Footer(props) {
   /* ============== STYLING (for Window Content) ============= */
 
   // Heading component
@@ -31,20 +30,20 @@ function WindowTabs(props) {
       {/* ================== WINDOW & ICON PROPERTIES ================== */}
       <Icon
         // --- Icon Properties ---
-        icoSrc={require("../Assets/Icons/FAQ-Icon.png")} // Icon image path
-        icoAlt="DevFest 23 Icon" // Image alt message
-        icoCap="FAQs" // Icon caption
+        icoSrc={require("../Assets/Icons/ADI-Logo.png")} // Icon image path
+        icoAlt="ADI Icon" // Image alt message
+        icoCap="ADI" // Icon caption
         icoCapColor="black" // Icon caption text color
-        icoX={750} // Starting X position of icon
-        icoY={200} // Starting Y position of icon
+        icoX={20} // Starting X position of icon
+        icoY={700} // Starting Y position of icon
         icoSize={80} // Icon size, both height and width
         // --- Window Properties ---
         winDefaultOpen={false} // True = Window open by default, False = it's not
-        winTitle="FAQ" // Window title
-        winX={300} // Starting X position of window
-        winY={100} // Starting Y position of window
+        winTitle="Presented By" // Window title
+        winX={900} // Starting X position of window
+        winY={60} // Starting Y position of window
         winWidth="" // Window width ("" = default width in App.css)
-        winHeight="500px" // Window height ("" = default height in App.css)
+        winHeight="250px" // Window height ("" = default height in App.css)
         winBGcol="" // Window background color (default("") = color in App.css)
         winBGimg="" // Window background image (default("") = no background image)
         winBGrepeat="" // Window background-repeat property (options: 'repeat' or 'no-repeat')
@@ -52,25 +51,25 @@ function WindowTabs(props) {
         // --- Mobile-Specific Window Properties ---
         mobile={props.mobile} // (Inherited Prop; Don't change)
         winWidthMobile="95vw" // Window width on mobile
-        winHeightMobile="400px" // Window height on mobile
+        winHeightMobile="280px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={2540} // Starting Y position of window in mobile mode
+        winYMobile={2960} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>
           <Tabs>
             <TabList>
-              <Tab>FAQ.2.final.txt</Tab>
+              <Tab>Team.txt</Tab>
               {/* <Tab>Title 2</Tab> */}
             </TabList>
 
             <TabPanel>
               <div className="notepad">
-                {
-                  FAQ.map((faq, index)=>{
-                    return <span><p className="q">{faq.question}</p><p className="a">{faq.answer}{(FAQ.length-1) === (index) ? <span className="cursor">|</span> : <span></span>}</p></span>
-                  })
-                }
+                <br/> 
+                <p className="a">DevFest is presented by <a href="https://www.adicu.com/">ADI</a></p>
+                <p className="a"><a href="https://discord.gg/fEax3gQeWW">Discord</a></p>
+                <p className="a"><a href="https://www.instagram.com/adicolumbia/">Instagram</a></p>
+                <p className="a"><a href="https://www.facebook.com/adicu/">Facebook</a></p>
                 <br/>
                 <br/>
                 <br/>
@@ -78,12 +77,11 @@ function WindowTabs(props) {
                 <br/>
                 <br/>
                 <br/>
-                
+                <br/>
+                <br/>
+                <br/>    
               </div>
             </TabPanel>
-            {/* <TabPanel>
-              <h2>Any content 2</h2>
-            </TabPanel> */}
           </Tabs> 
         </div>
       </Icon>
@@ -91,4 +89,4 @@ function WindowTabs(props) {
   );
 }
 
-export default WindowTabs;
+export default Footer;

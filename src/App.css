@@ -51,10 +51,12 @@
   box-shadow:  0.2em 0.2em 0em 0 rgba(255,255,255,0.5), -0.2em -0.2em 0em 0 rgba(0,0,0,0.2),;
   background-color: transparent;
   cursor: pointer;
+  text-align: center;
+  color: black;
 }
 
 .window-controls button:hover {
-  background-color: #f1f1f1;
+  background-color: #ff5050;
 }
 
 .draggable-icon{
@@ -89,11 +91,13 @@
 .window-content button {
   width: 130px;
   height: 50px;
-  border-color: #f1f1f1;
+  margin-top: 10px;
+  border-color: black;
   background-color: orange;
   cursor: pointer;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: large;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  color: black;
 }
 
 .window-content button:hover {
@@ -237,17 +241,21 @@
 #ar-vr {
   background-image: url("./Assets/Tracks/AR-VR.png");
   background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+  text-shadow: rgb(240, 152, 74) 5px 0px 0px, rgb(240, 152, 74) 4.90033px 0.993347px 0px, rgb(240, 152, 74) 4.60531px 1.94709px 0px, rgb(240, 152, 74) 4.12668px 2.82321px 0px, rgb(240, 152, 74) 3.48353px 3.58678px 0px, rgb(240, 152, 74) 2.70151px 4.20736px 0px, rgb(240, 152, 74) 1.81179px 4.6602px 0px, rgb(240, 152, 74) 0.849836px 4.92725px 0px, rgb(240, 152, 74) -0.145998px 4.99787px 0px, rgb(240, 152, 74) -1.13601px 4.86924px 0px, rgb(240, 152, 74) -2.08073px 4.54649px 0px, rgb(240, 152, 74) -2.94251px 4.04248px 0px, rgb(240, 152, 74) -3.68697px 3.37732px 0px, rgb(240, 152, 74) -4.28444px 2.57751px 0px, rgb(240, 152, 74) -4.71111px 1.67494px 0px, rgb(240, 152, 74) -4.94996px 0.7056px 0px, rgb(240, 152, 74) -4.99147px -0.291871px 0px, rgb(240, 152, 74) -4.83399px -1.27771px 0px, rgb(240, 152, 74) -4.48379px -2.2126px 0px, rgb(240, 152, 74) -3.95484px -3.05929px 0px, rgb(240, 152, 74) -3.26822px -3.78401px 0px, rgb(240, 152, 74) -2.4513px -4.35788px 0px, rgb(240, 152, 74) -1.53666px -4.75801px 0px, rgb(240, 152, 74) -0.560763px -4.96845px 0px, rgb(240, 152, 74) 0.437495px -4.98082px 0px, rgb(240, 152, 74) 1.41831px -4.79462px 0px, rgb(240, 152, 74) 2.34258px -4.41727px 0px, rgb(240, 152, 74) 3.17346px -3.86382px 0px, rgb(240, 152, 74) 3.87783px -3.15633px 0px, rgb(240, 152, 74) 4.4276px -2.32301px 0px, rgb(240, 152, 74) 4.80085px -1.39708px 0px, rgb(240, 152, 74) 4.98271px -0.415447px 0px;  
 }
 #design {
   background-image: url("./Assets/Tracks/Design.png");
   background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+  text-shadow: rgb(232, 196, 146) 5px 0px 0px, rgb(232, 196, 146) 4.90033px 0.993347px 0px, rgb(232, 196, 146) 4.60531px 1.94709px 0px, rgb(232, 196, 146) 4.12668px 2.82321px 0px, rgb(232, 196, 146) 3.48353px 3.58678px 0px, rgb(232, 196, 146) 2.70151px 4.20736px 0px, rgb(232, 196, 146) 1.81179px 4.6602px 0px, rgb(232, 196, 146) 0.849836px 4.92725px 0px, rgb(232, 196, 146) -0.145998px 4.99787px 0px, rgb(232, 196, 146) -1.13601px 4.86924px 0px, rgb(232, 196, 146) -2.08073px 4.54649px 0px, rgb(232, 196, 146) -2.94251px 4.04248px 0px, rgb(232, 196, 146) -3.68697px 3.37732px 0px, rgb(232, 196, 146) -4.28444px 2.57751px 0px, rgb(232, 196, 146) -4.71111px 1.67494px 0px, rgb(232, 196, 146) -4.94996px 0.7056px 0px, rgb(232, 196, 146) -4.99147px -0.291871px 0px, rgb(232, 196, 146) -4.83399px -1.27771px 0px, rgb(232, 196, 146) -4.48379px -2.2126px 0px, rgb(232, 196, 146) -3.95484px -3.05929px 0px, rgb(232, 196, 146) -3.26822px -3.78401px 0px, rgb(232, 196, 146) -2.4513px -4.35788px 0px, rgb(232, 196, 146) -1.53666px -4.75801px 0px, rgb(232, 196, 146) -0.560763px -4.96845px 0px, rgb(232, 196, 146) 0.437495px -4.98082px 0px, rgb(232, 196, 146) 1.41831px -4.79462px 0px, rgb(232, 196, 146) 2.34258px -4.41727px 0px, rgb(232, 196, 146) 3.17346px -3.86382px 0px, rgb(232, 196, 146) 3.87783px -3.15633px 0px, rgb(232, 196, 146) 4.4276px -2.32301px 0px, rgb(232, 196, 146) 4.80085px -1.39708px 0px, rgb(232, 196, 146) 4.98271px -0.415447px 0px;  
 }
 #ai-data {
   background-image: url("./Assets/Tracks/AI-Data.png");
   background-size: cover;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+  text-shadow: rgb(240, 234, 214) 5px 0px 0px, rgb(240, 234, 214) 4.90033px 0.993347px 0px, rgb(240, 234, 214) 4.60531px 1.94709px 0px, rgb(240, 234, 214) 4.12668px 2.82321px 0px, rgb(240, 234, 214) 3.48353px 3.58678px 0px, rgb(240, 234, 214) 2.70151px 4.20736px 0px, rgb(240, 234, 214) 1.81179px 4.6602px 0px, rgb(240, 234, 214) 0.849836px 4.92725px 0px, rgb(240, 234, 214) -0.145998px 4.99787px 0px, rgb(240, 234, 214) -1.13601px 4.86924px 0px, rgb(240, 234, 214) -2.08073px 4.54649px 0px, rgb(240, 234, 214) -2.94251px 4.04248px 0px, rgb(240, 234, 214) -3.68697px 3.37732px 0px, rgb(240, 234, 214) -4.28444px 2.57751px 0px, rgb(240, 234, 214) -4.71111px 1.67494px 0px, rgb(240, 234, 214) -4.94996px 0.7056px 0px, rgb(240, 234, 214) -4.99147px -0.291871px 0px, rgb(240, 234, 214) -4.83399px -1.27771px 0px, rgb(240, 234, 214) -4.48379px -2.2126px 0px, rgb(240, 234, 214) -3.95484px -3.05929px 0px, rgb(240, 234, 214) -3.26822px -3.78401px 0px, rgb(240, 234, 214) -2.4513px -4.35788px 0px, rgb(240, 234, 214) -1.53666px -4.75801px 0px, rgb(240, 234, 214) -0.560763px -4.96845px 0px, rgb(240, 234, 214) 0.437495px -4.98082px 0px, rgb(240, 234, 214) 1.41831px -4.79462px 0px, rgb(240, 234, 214) 2.34258px -4.41727px 0px, rgb(240, 234, 214) 3.17346px -3.86382px 0px, rgb(240, 234, 214) 3.87783px -3.15633px 0px, rgb(240, 234, 214) 4.4276px -2.32301px 0px, rgb(240, 234, 214) 4.80085px -1.39708px 0px, rgb(240, 234, 214) 4.98271px -0.415447px 0px;
+
 }
 
 .locked{
