@@ -34,7 +34,7 @@ function Judges(props) {
       {/* ================== WINDOW & ICON PROPERTIES ================== */}
       <Icon
         // --- Icon Properties ---
-        icoSrc={require("../Assets/Icons/Judges-Icon.png")} // Icon image path
+        icoSrc={require("../Assets/Icons/JUDGES-Icon.png")} // Icon image path
         icoAlt="Judges Icon" // Image alt message
         icoCap="JUDGES" // Icon caption
         icoCapColor="black" // Icon caption text color
