@@ -18,7 +18,7 @@ const LoadingScreen = () => {
       <LoadingDiv>
         <img
           height={400}
-          src={require("../Assets/Loading-Lion.png")}
+          src={require("../Assets/Loading-Lion.gif")}
           alt="Loading lion"
           draggable={false}
         />
