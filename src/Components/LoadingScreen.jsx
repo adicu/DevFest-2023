@@ -6,11 +6,19 @@ const LoadingScreen = () => {
 
   const LoadingDiv = styled.div`
     background-image: url(${bgImage});
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
     height: 100vh;
     width: 100vw;
 
     text-align: center;
     align-items: center;
+  `;
+
+  const Text = styled.p`
+    font-size: 1.5em;
+    font-family: "DotGothic16", sans-serif;
   `;
 
   return (
@@ -31,7 +39,7 @@ const LoadingScreen = () => {
             marginRight: "40vw",
           }}
         />
-        <p>Some fun fact abt devfest... did you know that...?</p>
+        <Text>Some fun fact abt devfest... did you know that...?</Text>
       </LoadingDiv>
     </>
   );
