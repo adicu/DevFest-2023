@@ -1,11 +1,11 @@
 import React from "react";
 import Icon from "./Icon";
 import styled from "@emotion/styled";
-import {Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import '../Styling/CustomTabsStyling.css';
-import JUDGES from '../Data/Judges.json';
-import images from '../Assets/Judges/index';
-import FeatureFlags from '../Data/FeatureFlags.json';
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "../Styling/CustomTabsStyling.css";
+import JUDGES from "../Data/Judges.json";
+import images from "../Assets/Judges/index";
+import FeatureFlags from "../Data/FeatureFlags.json";
 
 function Judges(props) {
   /* ============== STYLING (for Window Content) ============= */
@@ -61,42 +61,49 @@ function Judges(props) {
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>
-          { !FeatureFlags.judges?
+          {!FeatureFlags.judges ? (
             <div className="locked">
-              <img className="lock-icon" src={require("../Assets/Icons/lock.png")} alt="Content Locked"/>
+              <img
+                className="lock-icon"
+                src={require("../Assets/Icons/lock.png")}
+                alt="Content Locked"
+              />
               <div className="blurred"></div>
             </div>
-          :
+          ) : (
             <Tabs>
               <TabList>
-                {
-                  JUDGES.map((judge, index)=>{
-                    let name = judge.name.split(" ")[0];
-                    return <Tab>{name}</Tab>
-                  })
-                }              
+                {JUDGES.map((judge, index) => {
+                  let name = judge.name.split(" ")[0];
+                  return <Tab>{name}</Tab>;
+                })}
               </TabList>
 
-              {
-                JUDGES.map((judge, index)=>{
-                  return  <TabPanel>
-                            <div className="profile">
-                              <div className="profile-image-bio">
-                                <div className="profile-image"><img src={images[judge.name.split(" ")[0]]} alt={judge.name}/></div>
-                                <div className="profile-bio">{judge.bio}</div>
-                              </div>
-                              <div className="profile-label">
-                                <H1>{judge.name}</H1>
-                              </div> 
-                            </div>
-                          </TabPanel>
-                })              
-              }
+              {JUDGES.map((judge, index) => {
+                return (
+                  <TabPanel>
+                    <div className="profile">
+                      <div className="profile-image-bio">
+                        <div className="profile-image">
+                          <img
+                            src={images[judge.name.split(" ")[0]]}
+                            alt={judge.name}
+                          />
+                        </div>
+                        <div className="profile-bio">{judge.bio}</div>
+                      </div>
+                      <div className="profile-label">
+                        <H1>{judge.name}</H1>
+                      </div>
+                    </div>
+                  </TabPanel>
+                );
+              })}
               {/* <TabPanel>
                 <h2>Any content 2</h2>
               </TabPanel> */}
             </Tabs>
-          } 
+          )}
         </div>
       </Icon>
     </>
