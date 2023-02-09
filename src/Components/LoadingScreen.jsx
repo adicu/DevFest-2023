@@ -16,30 +16,33 @@ const LoadingScreen = () => {
     align-items: center;
   `;
 
-  const Text = styled.p`
-    font-size: 1.5em;
-    font-family: "DotGothic16", sans-serif;
+  const LoadingImg = styled.img`
+    margin-top: 5em;
   `;
 
   return (
     <>
       <LoadingDiv>
-        <img
+        <LoadingImg
           height={400}
           src={require("../Assets/Loading-Lion.gif")}
           alt="Loading lion"
           draggable={false}
         />
 
+        <br />
+
         <BarLoader
-          color="#36d7b7"
-          width="20vw"
+          color="white"
+          width="300px"
+          height="12px"
           cssOverride={{
-            marginLeft: "40vw",
-            marginRight: "40vw",
+            borderStyle: "solid",
+            borderColor: "#625A43",
+            backgroundColor: "#625A43",
+            display: "inline-block",
           }}
         />
-        <Text>Some fun fact abt devfest... did you know that...?</Text>
       </LoadingDiv>
     </>
   );
