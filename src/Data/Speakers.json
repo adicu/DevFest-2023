@@ -1,0 +1,34 @@
+[
+    {
+        "name":"Prof. Nakul Verma",
+        "image":"Ginger.jpg",
+        "bio":"Ginger is the main protagonist of Chicken Run. She is a young intelligent hen who all the farm British chickens view effectively as their unofficial British chicken leader and boss.",
+        "linkedin":"",
+        "website":"",
+        "twitter":""
+    },
+    {
+        "name":"Prof. Steven K. Feiner",
+        "image":"",
+        "bio":"Steven K. Feiner (PhD, Brown) is Professor of Computer Science at Columbia University, where he directs the Computer Graphics and User Interfaces Lab. His research interests include human–computer interaction, augmented reality and virtual reality, 3D and 2D user interfaces, automated design of graphics and multimedia, mobile and wearable computing, health applications, computer games, and information visualization.",
+        "linkedin":"",
+        "website":"",
+        "twitter":""        
+    },
+    {
+        "name":"Prof. Yongwhan Lim",
+        "image":"",
+        "bio":"",
+        "linkedin":"",
+        "website":"",
+        "twitter":""        
+    },
+    {
+        "name":"Miggi",
+        "image":"",
+        "bio":"",
+        "linkedin":"",
+        "website":"",
+        "twitter":""        
+    }             
+]

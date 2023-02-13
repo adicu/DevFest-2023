@@ -1,16 +1,34 @@
 [
     {
-        "name":"Ginger the Chicken",
+        "name":"Robert Ying",
         "image":"Ginger.jpg",
         "bio":"Ginger is the main protagonist of Chicken Run. She is a young intelligent hen who all the farm British chickens view effectively as their unofficial British chicken leader and boss.",
-        "linkedin":"",
-        "website":""
+        "linkedin":"https://www.youtube.com",
+        "website":"https://www.youtube.com",
+        "twitter":"https://www.youtube.com"
     },
     {
-        "name":"Wallace",
+        "name":"Jackie Ho",
+        "image":"",
+        "bio":"Jackie Ho is the founding product designer at machine learning startup, Predibase. Although she majored in Economics-Math with a minor in CS, during her time at Columbia, she decided to take a different path and become a self-taught product designer. Prior to Predibase, she led teams at Pivotal (acquired by VMware) and coached clients on practices such as user-centered design, lean product management, and extreme programming. Jackie would describe her style as a designer as 1. always design with low technical complexity in mind (maybe that CS minor does come in handy), 2. always ruthlessly prioritize (time is valuable, solve real problems), and 3. teamwork makes the dream work (no one wins until our users are happy).  As an ADI alum, she's excited to be back on campus in support of Devfest!",
+        "linkedin":"",
+        "website":"",
+        "twitter":""
+    },
+    {
+        "name":"Jack Wink",
         "image":"",
         "bio":"",
         "linkedin":"",
-        "website":""
-    }    
+        "website":"",
+        "twitter":""
+    },
+    {
+        "name":"Jessie Liu",
+        "image":"",
+        "bio":"",
+        "linkedin":"",
+        "website":"",
+        "twitter":""
+    }             
 ]

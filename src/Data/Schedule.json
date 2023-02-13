@@ -1,23 +1,44 @@
 [
     {
-        "day": "Monday"
+        "day": "Monday",
+        "events":["7:00 PM - Kick Off - URIS 114",
+                "8:00 PM - Kick Off - URIS 114",
+                "9:00 PM - - URIS 144"]
     },
     {
-        "day": "Tuesday"  
+        "day": "Tuesday",  
+        "events":["7:00 PM - AR/VR - URIS 114",
+            "8:00 PM - Competitive Programming Workshop - URIS 114",
+            "9:00 PM - Echo3D - URIS 144"]        
     },
     {
-        "day": "Wednesday"
+        "day": "Wednesday",
+        "events":["7:00 PM - Kick Off - URIS 114",
+            "8:00 PM - Kick Off - URIS 114",
+            "9:00 PM - - URIS 144"]        
     },
     {
-        "day": "Thursday"
+        "day": "Thursday",
+        "events":["7:00 PM - Kick Off - URIS 114",
+            "8:00 PM - Kick Off - URIS 114",
+            "9:00 PM - - URIS 144"]        
     },
     {
-        "day": "Friday"
+        "day": "Friday",
+        "events":["7:00 PM - Kick Off - URIS 114",
+            "8:00 PM - Kick Off - URIS 114",
+            "9:00 PM - - URIS 144"]        
     },
     {
-        "day": "Saturday"
+        "day": "Saturday",
+        "events":["7:00 PM - Kick Off - URIS 114",
+            "8:00 PM - Kick Off - URIS 114",
+            "9:00 PM - - URIS 144"]        
     },
     {
-        "day": "Sunday"     
+        "day": "Sunday",
+        "events":["10:00 AM - Project Presentation - URIS 114",
+            "1:00 PM - Prize Presentation - URIS 114",
+            "9:00 PM - - URIS 144"]             
     }
 ]

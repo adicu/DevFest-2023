@@ -88,11 +88,9 @@ function WindowDefault(props) {
           Come join us and learn new skills, discover cutting-edge technologies,
           and build amazing projects.
         </P>
-        <P>Sign up now and be a part of history.</P>
+        <P><span style={{color:"red"}}>REGISTRATION IS NOW CLOSED.</span></P>
         <div className="window-register">
-          <a href={links.register}>
-          <button>Register</button>
-          </a>
+          <button className="disabled-button" disabled={true}>Register</button>
         </div>
       </Icon>
     </>

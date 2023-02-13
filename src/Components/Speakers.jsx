@@ -3,7 +3,7 @@ import Icon from "./Icon";
 import styled from "@emotion/styled";
 import {Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import '../Styling/CustomTabsStyling.css';
-import JUDGES from '../Data/Judges.json';
+import SPEAKERS from '../Data/Speakers.json';
 import images from '../Assets/Judges/index';
 import FeatureFlags from '../Data/FeatureFlags.json';
 
@@ -70,15 +70,15 @@ function Speakers(props) {
             <Tabs>
               <TabList>
                 {
-                  JUDGES.map((judge, index)=>{
-                    let name = judge.name.split(" ")[0];
+                  SPEAKERS.map((speaker, index)=>{
+                    let name = speaker.name.split(" ").pop();
                     return <Tab>{name}</Tab>
                   })
                 }              
               </TabList>
 
               {
-                JUDGES.map((judge, index)=>{
+                SPEAKERS.map((judge, index)=>{
                   return  <TabPanel>
                             <div className="profile">
                               <div className="profile-image-bio">

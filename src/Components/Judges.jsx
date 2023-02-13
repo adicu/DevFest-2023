@@ -90,10 +90,17 @@ function Judges(props) {
                             alt={judge.name}
                           />
                         </div>
-                        <div className="profile-bio">{judge.bio}</div>
+                        <div className="profile-bio"><div className="bio-notepad">{judge.bio}<span className="cursor">|</span></div></div>
                       </div>
                       <div className="profile-label">
-                        <H1>{judge.name}</H1>
+                        <p>
+                          {judge.name}
+                          <span className="label-icons">
+                            {judge.linkedin? <a href={judge.linkedin}><img src={require("../Assets/Icons/linkedin.png")}/></a> : <></>}
+                            {judge.website? <a href={judge.website}><img src={require("../Assets/Icons/internet.png")}/></a> : <></>}
+                            {judge.twitter? <a href={judge.twitter}><img src={require("../Assets/Icons/twitter-sign.png")}/></a> : <></>}
+                          </span>
+                        </p>
                       </div>
                     </div>
                   </TabPanel>
