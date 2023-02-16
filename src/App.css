@@ -298,3 +298,7 @@
   width: 100%;
   object-fit: contain;
 }
+
+.notepad .t1{
+  width: 20em;
+}

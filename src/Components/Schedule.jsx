@@ -56,7 +56,7 @@ function Schedule(props) {
               <Tab>Thur</Tab>
               <Tab>Fri</Tab>
               <Tab>Sat</Tab>
-              <Tab>Sun</Tab>
+              <Tab>Sun</Tab>          
             </TabList>
 
             {

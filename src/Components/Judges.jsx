@@ -96,9 +96,9 @@ function Judges(props) {
                         <p>
                           {judge.name}
                           <span className="label-icons">
-                            {judge.linkedin? <a href={judge.linkedin}><img src={require("../Assets/Icons/linkedin.png")}/></a> : <></>}
-                            {judge.website? <a href={judge.website}><img src={require("../Assets/Icons/internet.png")}/></a> : <></>}
-                            {judge.twitter? <a href={judge.twitter}><img src={require("../Assets/Icons/twitter-sign.png")}/></a> : <></>}
+                            {judge.linkedin? <a href={judge.linkedin}><img src={require("../Assets/Icons/linkedin.png")} alt="linkedin"/></a> : <></>}
+                            {judge.website? <a href={judge.website}><img src={require("../Assets/Icons/internet.png")} alt="internet"/></a> : <></>}
+                            {judge.twitter? <a href={judge.twitter}><img src={require("../Assets/Icons/twitter-sign.png")} alt="twitter"/></a> : <></>}
                           </span>
                         </p>
                       </div>
@@ -106,9 +106,6 @@ function Judges(props) {
                   </TabPanel>
                 );
               })}
-              {/* <TabPanel>
-                <h2>Any content 2</h2>
-              </TabPanel> */}
             </Tabs>
           )}
         </div>

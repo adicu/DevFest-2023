@@ -7,8 +7,15 @@
 .react-tabs__tab-list {
     border-bottom: 1px solid black;
     margin: 0 0 10px;
+    display: flex;
     padding: 0;
     padding-left: 0px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.react-tabs__tab-list::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
 }
 
 .react-tabs__tab {
@@ -25,14 +32,15 @@
 }
 
 .react-tabs__tab--selected {
-    background: #F7ECD3;
+    /* background: #F7ECD3; */
+    background: rgb(253, 180, 180);
     border-color: black;
     color: black;
     border-radius: 5px 5px 0 0;
 }
 
 .react-tabs__tab--disabled {
-    color: GrayText;
+    color: rgb(156, 156, 156);
     cursor: default;
 }
 

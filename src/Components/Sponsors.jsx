@@ -73,6 +73,11 @@ function Sponsors(props) {
 
               <TabPanel>
                 <div className="notepad">
+                  <p>DevFest is brough to you with help from our sponsors</p>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/lunchbox.png")}/></a>
+
+                  <p>With additional support from</p>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lock" className="t3" src={require("../Assets/Icons/lock.png")}/></a>
                   
                 </div>
               </TabPanel>

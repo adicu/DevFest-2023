@@ -2,24 +2,24 @@
     {
         "name":"Robert Ying",
         "image":"Ginger.jpg",
-        "bio":"Ginger is the main protagonist of Chicken Run. She is a young intelligent hen who all the farm British chickens view effectively as their unofficial British chicken leader and boss.",
-        "linkedin":"https://www.youtube.com",
-        "website":"https://www.youtube.com",
-        "twitter":"https://www.youtube.com"
+        "bio":"Robert is currently working at Striple as the engineering manager for the Money Controls and Tagging team, which owns systems that regulate money movement at Stripe. Previously, he was a staff engineer working on various architectural components of the “Global Payments and Treasury Network”, with a particular focus on distributed systems (working with various JVM languages, Ruby, Spark, Envoy, gRPC, MongoDB, and other related technologies).",
+        "linkedin":"",
+        "website":"https://robertying.com/",
+        "twitter":""
     },
     {
         "name":"Jackie Ho",
-        "image":"",
+        "image":"Jackie.jpg",
         "bio":"Jackie Ho is the founding product designer at machine learning startup, Predibase. Although she majored in Economics-Math with a minor in CS, during her time at Columbia, she decided to take a different path and become a self-taught product designer. Prior to Predibase, she led teams at Pivotal (acquired by VMware) and coached clients on practices such as user-centered design, lean product management, and extreme programming. Jackie would describe her style as a designer as 1. always design with low technical complexity in mind (maybe that CS minor does come in handy), 2. always ruthlessly prioritize (time is valuable, solve real problems), and 3. teamwork makes the dream work (no one wins until our users are happy).  As an ADI alum, she's excited to be back on campus in support of Devfest!",
-        "linkedin":"",
-        "website":"",
+        "linkedin":"https://www.linkedin.com/in/jackiemho/",
+        "website":"https://ohho-design.com/",
         "twitter":""
     },
     {
         "name":"Jack Wink",
-        "image":"",
-        "bio":"",
-        "linkedin":"",
+        "image":"Jack.jpg",
+        "bio":"Jack is the Co-CEO of Lunchbox Entertainment, a game studio attempting to save the public from playing League of Legends and DOTA 2. He is also a writer and founder of Bardo Theater, an non-profit theater company in New York City. ",
+        "linkedin":"https://www.linkedin.com/in/jack-wink-700093214/",
         "website":"",
         "twitter":""
     },
