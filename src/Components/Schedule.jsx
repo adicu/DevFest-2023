@@ -5,6 +5,8 @@ import {Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import '../Styling/CustomTabsStyling.css';
 import SCHEDULE from '../Data/Schedule.json';
 import FeatureFlags from '../Data/FeatureFlags.json';
+import links from "../Data/ExternalLinks.json"
+
 function Schedule(props) {
   /* ============== STYLING (for Window Content) ============= */
 
@@ -54,13 +56,20 @@ function Schedule(props) {
               <Tab>Thur</Tab>
               <Tab>Fri</Tab>
               <Tab>Sat</Tab>
-              <Tab>Sun</Tab>
+              <Tab>Sun</Tab>          
             </TabList>
 
             {
               SCHEDULE.map((day, index)=>{
                 return<TabPanel>
                         <div className="notepad">
+                        <br/>
+                        <a href={links["g-cal"]}>G Calendar</a>
+                        {
+                          day.events.map((event, index)=>{
+                            return <p>{event}</p>
+                          })
+                        }
                         </div>
                       </TabPanel>
               })

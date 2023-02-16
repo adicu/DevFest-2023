@@ -100,6 +100,18 @@
   color: black;
 }
 
+.window-content .disabled-button{
+  background-color: lightgray;
+  color: gray;
+  border: 2px solid gray;
+}
+
+.window-content .disabled-button:hover{
+  background-color: lightgray;
+  color: gray;
+  border: 2px solid gray;
+}
+
 .window-content button:hover {
   background-color: #f1f1f1;
 }
@@ -285,4 +297,8 @@
 .blurred img{
   width: 100%;
   object-fit: contain;
+}
+
+.notepad .t1{
+  width: 20em;
 }

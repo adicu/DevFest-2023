@@ -2,7 +2,7 @@
 
 import Ginger from  "../../Assets/Judges/Ginger.jpg";
 import Wallace from  "../../Assets/Judges/Wallace.jpg";
-import Robert from  "../../Assets/Judges/robert.jpg";
+import Robert from  "../../Assets/Judges/robert.jpeg";
 import Jackie from  "../../Assets/Judges/jackie.jpg";
 import Jack from  "../../Assets/Judges/jack.jpg";
 
