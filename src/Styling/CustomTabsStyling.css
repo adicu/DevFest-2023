@@ -109,6 +109,7 @@
     text-align: left;
     font-size: 0.9em;
     padding-left: 3px;
+    padding-right: 3px;
     padding-top: 10px;
     font-family: "Lucida Console", "Lucida Sans Typewriter", "monaco", "Bitstream Vera Sans Mono", monospace;
     overflow: auto;
