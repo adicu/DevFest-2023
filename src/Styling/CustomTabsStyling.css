@@ -152,6 +152,14 @@
     margin-top: 2px;
 }
 
+.notepad .t1{
+    width: 20em;
+}
+
+.notepad .t2{
+    width: 10em;
+}
+
 @keyframes blink {
     0%{
         opacity: 0;

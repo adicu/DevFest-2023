@@ -67,17 +67,31 @@ function Sponsors(props) {
           :          
             <Tabs>
               <TabList>
-                <Tab>FAQ.2.final.txt</Tab>
+                <Tab>Thanks.txt</Tab>
                 {/* <Tab>Title 2</Tab> */}
               </TabList>
 
               <TabPanel>
                 <div className="notepad">
-                  <p>DevFest is brough to you with help from our sponsors</p>
+                  <p style={{ textAlign: "center" }}>Made Possible with help of our sponsors</p>
+                  <p style={{ textAlign: "center" }}>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/algorand.png")}/></a>
+                  <br/>
+                  <br/>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/imc.png")}/></a>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/frich.png")}/></a>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/echo3d.png")}/></a>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/bloomberg.png")}/></a>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/xcamp.png")}/></a>
                   <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/lunchbox.png")}/></a>
+                  </p>
+                  
 
-                  <p>With additional support from</p>
-                  <a href="https://www.lunchboxentertainment.com/"><img alt="lock" className="t3" src={require("../Assets/Icons/lock.png")}/></a>
+                  <p style={{ textAlign: "center" }}>With Support From</p>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lock" className="t2" src={require("../Assets/Icons/lock.png")}/></a>
                   
                 </div>
               </TabPanel>
