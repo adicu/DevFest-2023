@@ -47,7 +47,7 @@ function Judges(props) {
         winX={250} // Starting X position of window
         winY={50} // Starting Y position of window
         winWidth="" // Window width ("" = default width in App.css)
-        winHeight="500px" // Window height ("" = default height in App.css)
+        winHeight="430px" // Window height ("" = default height in App.css)
         winBGcol="" // Window background color (default("") = color in App.css)
         winBGimg="" // Window background image (default("") = no background image)
         winBGrepeat="" // Window background-repeat property (options: 'repeat' or 'no-repeat')
@@ -55,7 +55,7 @@ function Judges(props) {
         // --- Mobile-Specific Window Properties ---
         mobile={props.mobile} // (Inherited Prop; Don't change)
         winWidthMobile="95vw" // Window width on mobile
-        winHeightMobile="400px" // Window height on mobile
+        winHeightMobile="320px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
         winYMobile={1695} // Starting Y position of window in mobile mode
       >
@@ -90,7 +90,7 @@ function Judges(props) {
                             alt={judge.name}
                           />
                         </div>
-                        <div className="profile-bio"><div className="bio-notepad">{judge.bio}<span className="cursor">|</span></div></div>
+                        <div className="profile-bio"><div className="bio-notepad">{judge.bio}<span className="cursor">|</span><br/><br/></div></div>
                       </div>
                       <div className="profile-label">
                         <p>

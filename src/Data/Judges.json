@@ -2,7 +2,7 @@
     {
         "name":"Robert Ying",
         "image":"Ginger.jpg",
-        "bio":"Robert is currently working at Striple as the engineering manager for the Money Controls and Tagging team, which owns systems that regulate money movement at Stripe. Previously, he was a staff engineer working on various architectural components of the “Global Payments and Treasury Network”, with a particular focus on distributed systems (working with various JVM languages, Ruby, Spark, Envoy, gRPC, MongoDB, and other related technologies).",
+        "bio":"Robert is currently working at Stripe as the engineering manager for the Money Controls and Tagging team, which owns systems that regulate money movement at Stripe. Previously, he was a staff engineer working on various architectural components of the “Global Payments and Treasury Network”, with a particular focus on distributed systems (working with various JVM languages, Ruby, Spark, Envoy, gRPC, MongoDB, and other related technologies).",
         "linkedin":"",
         "website":"https://robertying.com/",
         "twitter":""
@@ -26,8 +26,8 @@
     {
         "name":"Jessie Liu",
         "image":"",
-        "bio":"",
-        "linkedin":"",
+        "bio":"Jessie (SEAS '19) is a Software Engineer working on Web Accessibility for Google Docs, Sheets, and Slides. Previously, she studied Computer Science at Columbia, worked on Google Cloud Platform, and interned at Oscar Health. She lives in New York and enjoys learning ASL and reading fiction.",
+        "linkedin":"https://www.linkedin.com/in/jessielindleyliu/",
         "website":"",
         "twitter":""
     }             
