@@ -1,5 +1,5 @@
 {
-    "judges": false,
+    "judges": true,
     "speakers": false,
     "sponsors": false,
     "schedule": false
