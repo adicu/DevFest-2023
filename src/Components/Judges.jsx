@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "./Icon";
-import styled from "@emotion/styled";
+// import styled from "@emotion/styled";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "../Styling/CustomTabsStyling.css";
 import JUDGES from "../Data/Judges.json";
@@ -11,14 +11,14 @@ function Judges(props) {
   /* ============== STYLING (for Window Content) ============= */
 
   // Heading component
-  const H1 = props.mobile
-    ? // mobile
-      styled.h1`
-        margin-top: 0;
-        font-size: 22px;
-      `
-    : // desktop
-      styled.h1``;
+  // const H1 = props.mobile
+  //   ? // mobile
+  //     styled.h1`
+  //       margin-top: 0;
+  //       font-size: 22px;
+  //     `
+  //   : // desktop
+  //     styled.h1``;
 
   // Paragraph component
   // const P = props.mobile

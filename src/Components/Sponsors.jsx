@@ -75,23 +75,26 @@ function Sponsors(props) {
                 <div className="notepad">
                   <p style={{ textAlign: "center" }}>Made Possible with help of our sponsors</p>
                   <p style={{ textAlign: "center" }}>
-                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/algorand.png")}/></a>
+                  <a href="https://www.algorand.com/"><img alt="algorand" className="t1" src={require("../Assets/Sponsors/algorand.png")}/></a>
                   <br/>
                   <br/>
-                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/imc.png")}/></a>
-                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/frich.png")}/></a>
-                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/echo3d.png")}/></a>
+                  <a href="https://careers.imc.com/us/en"><img alt="imc-trading" className="t1" src={require("../Assets/Sponsors/imc.png")}/></a>
+                  <a href="https://www.getfrich.com/"><img alt="frich" className="t1" src={require("../Assets/Sponsors/frich.png")}/></a>
+                  <a href="https://console.echo3d.com/#/auth/register-promo?code=Jan32023_114"><img alt="echo3d" className="t1" src={require("../Assets/Sponsors/echo3d.png")}/></a>
                   <br/>
                   <br/>
                   <br/>
-                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/bloomberg.png")}/></a>
-                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/xcamp.png")}/></a>
-                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t1" src={require("../Assets/Sponsors/lunchbox.png")}/></a>
+                  <a href="https://careers.bloomberg.com/job/search"><img alt="bloomberg" className="t2" src={require("../Assets/Sponsors/bloomberg.png")}/></a>
+                  <a href="https://x-camp.academy/#/"><img alt="xcamp" className="t2" src={require("../Assets/Sponsors/xcamp.png")}/></a>
+                  <a href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t2" src={require("../Assets/Sponsors/lunchbox.png")}/></a>
                   </p>
                   
 
                   <p style={{ textAlign: "center" }}>With Support From</p>
-                  <a href="https://www.lunchboxentertainment.com/"><img alt="lock" className="t2" src={require("../Assets/Icons/lock.png")}/></a>
+                  <p style={{ textAlign: "center" }}>
+                    <a href="https://cloud.google.com/"><img alt="gcp" className="t3" src={require("../Assets/Sponsors/gcp.png")}/></a>
+                    <a href="https://www.figma.com/"><img alt="figma" className="t3" src={require("../Assets/Sponsors/figma.png")}/></a>
+                  </p>
                   
                 </div>
               </TabPanel>
