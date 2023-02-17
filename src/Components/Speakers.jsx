@@ -1,24 +1,24 @@
 import React from "react";
 import Icon from "./Icon";
-import styled from "@emotion/styled";
+// import styled from "@emotion/styled";
 import {Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import '../Styling/CustomTabsStyling.css';
 import SPEAKERS from '../Data/Speakers.json';
-import images from '../Assets/Judges/index';
+import images from '../Assets/Speakers/index';
 import FeatureFlags from '../Data/FeatureFlags.json';
 
 function Speakers(props) {
   /* ============== STYLING (for Window Content) ============= */
 
   // Heading component
-  const H1 = props.mobile
-    ? // mobile
-      styled.h1`
-        margin-top: 0;
-        font-size: 22px;
-      `
-    : // desktop
-      styled.h1``;
+  // const H1 = props.mobile
+  //   ? // mobile
+  //     styled.h1`
+  //       margin-top: 0;
+  //       font-size: 22px;
+  //     `
+  //   : // desktop
+  //     styled.h1``;
 
   // Paragraph component
   // const P = props.mobile
@@ -77,21 +77,35 @@ function Speakers(props) {
                 }              
               </TabList>
 
-              {
-                SPEAKERS.map((judge, index)=>{
-                  return  <TabPanel>
-                            <div className="profile">
-                              <div className="profile-image-bio">
-                                <div className="profile-image"><img src={images[judge.name.split(" ")[0]]} alt={judge.name}/></div>
-                                <div className="profile-bio">{judge.bio}</div>
-                              </div>
-                              <div className="profile-label">
-                                <H1>{judge.name}</H1>
-                              </div> 
-                            </div>
-                          </TabPanel>
-                })              
-              }
+              {SPEAKERS.map((speaker, index) => {
+                return (
+                  <TabPanel>
+                    <div className="profile">
+                      <div className="profile-image-bio">
+                        <div className="profile-image">
+                          <img
+                            src={images[speaker.name.split(" ").pop()]}
+                            alt={speaker.name}
+                          />
+                        </div>
+                        <div className="profile-bio"><div className="bio-notepad">{speaker.bio}<span className="cursor">|</span><br/><br/></div></div>
+                      </div>
+                      <div className="profile-label">
+                        <p>
+                          {speaker.name}
+                          <span className="label-icons">
+                            {speaker.linkedin? <a rel="noreferrer" target="_blank" href={speaker.linkedin}><img src={require("../Assets/Icons/linkedin.png")} alt="linkedin"/></a> : <></>}
+                            {speaker.website? <a rel="noreferrer" target="_blank" href={speaker.website}><img src={require("../Assets/Icons/internet.png")} alt="internet"/></a> : <></>}
+                            {speaker.twitter? <a rel="noreferrer" target="_blank" href={speaker.twitter}><img src={require("../Assets/Icons/twitter-sign.png")} alt="twitter"/></a> : <></>}
+                          </span>
+                          <br/>
+                          <a rel="noreferrer" target="_blank" href={speaker.event} style={{ fontSize: "1.5em"}}><img src={require("../Assets/Icons/event.png")} style={{ marginTop: "10px"}} alt="event"/></a>
+                        </p>
+                      </div>
+                    </div>
+                  </TabPanel>
+                );
+              })}
             </Tabs>
           } 
         </div>

@@ -5,7 +5,9 @@
         "bio":"Prof. Nakul Verma is a faculty member in the Computer Science Department at Columbia University, focusing on Machine Learning, Algorithms and Theory. His primary area of research is Machine Learning and High-dimensional Statistics, and is especially interested in understanding and exploiting the intrinsic structure in data (eg. manifold or sparse structure) to design effective learning algorithms in the big data regime.  His work has produced the first provably correct approximate distance-preserving embeddings for manifolds from finite samples, and has provided improved sample complexity results in various learning paradigms such as metric learning and multiple-instance learning. Before joining Columbia, Dr. Verma worked at Janelia Research Campus of the Howard Hughes Medical Institute (HHMI) as a Research Specialist developing statistical techniques to analyze neuroscience data, where he collaborated with neuroscientists to quantitatively analyze social behavior in model organisms using various unsupervised and weakly-supervised machine learning techniques. Verma has also worked at Amazon Inc. as a research scientist developing risk assessment models for real-time fraud detection. Dr. Verma received his PhD in 2012 and his BS in 2004, both from the University of California San Diego. He was awarded Provost Honors from University of California San Diego from 2001-2004, and was awarded Janelia Teaching Fellowship in 2015.",
         "linkedin":"",
         "website":"https://www.cs.columbia.edu/~verma/index.html",
-        "twitter":""
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=Mm4wYXNvdnRhOXM1cW83NTR0c3NiNTNvZzAgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"
+
     },
     {
         "name":"Prof. Steven K. Feiner",
@@ -13,7 +15,8 @@
         "bio":"Steven K. Feiner (PhD, Brown) is Professor of Computer Science at Columbia University, where he directs the Computer Graphics and User Interfaces Lab. His research interests include human–computer interaction, augmented reality and virtual reality, 3D and 2D user interfaces, automated design of graphics and multimedia, mobile and wearable computing, health applications, computer games, and information visualization.",
         "linkedin":"",
         "website":"http://www.cs.columbia.edu/~feiner/",
-        "twitter":""        
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzY3c3BrY3NkNHBpaDNna2FqbmtyYmZqMXMgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"        
     },
     {
         "name":"Prof. Yongwhan Lim",
@@ -21,7 +24,8 @@
         "bio":"Yongwhan Lim is a Senior Quantitative Software Engineer at Two Sigma Investments, a Lecturer at MIT, and an Associate of Computer Science at Columbia University where he is Head Coach for its ICPC team. He is passionate about teaching on the topics of technical interview preparation and competitive programming. He also volunteers as ICPC Internship Manager and ICPC Judge for North America Regionals (Mid-Central and Greater New York) and North America Qualifier. He had been a Research Software Engineer at Google for nearly six years. Yongwhan pursued a PhD program in Operations Research at MIT for about three years where he was advised by Professor Asuman Ozdaglar. He holds a BS in Computer Science and Mathematics (double major) and an MS in Computer Science, all from Stanford.",
         "linkedin":"https://www.linkedin.com/in/yongwhan/",
         "website":"https://www.yongwhan.io/",
-        "twitter":""        
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NjhhNHI2c2pwb2NuMzNnZ245dDBkZHZtdXEgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"
     },
     {
         "name":"Katrin Kaurov",
@@ -29,23 +33,17 @@
         "bio":"Co-founder & CEO of Frich. Born in Estonia, I got scouted and started working as a fashion model from the age of 14 which allowed me to work at 20+ countries by the time I was 21. While modelling I created an app called Modelclub which was a social savings app for models. I took Modelclub from the initial idea to it being one of the most used apps within the fashion industry within 2 years. Inspired by that, I left the fashion industry, finished a Graduate Program at Harvard and helped scale up a venture-backed late stage fintech company before starting Frich.",
         "linkedin":"https://www.linkedin.com/in/katrin-kaurov-160972194/",
         "website":"",
-        "twitter":""        
-    },
-    {
-        "name":"Thomas Burke",
-        "image":"Katrin.jpg",
-        "bio":"Tom is a 3+ year Googler that has worked with Firebase developers on a myriad of different use cases. He works as a Technical Solutions Engineer to help customers when they need additional GCP and Firebase assistance. Tom enjoys working on side projects in his free time including many home automation projects and web development for future endeavors and to help out his friends. Tom is a fitness fanatic, so naturally one of his personal projects is a gym app that he built using Firebase!",
-        "linkedin":"https://www.linkedin.com/in/thomas-burke-4269b5114/",
-        "website":"",
-        "twitter":""        
-    },    
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2V2ZGZrN21hY29rbm1rdm5rb2liYmJkdmMgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"        
+    },  
     {
         "name":"Miggi Cardona",
         "image":"",
         "bio":"Miguel \"Miggi\" Cardona is a Designer Advocate for Education at Figma. He was previously an Assistant Professor for the New Media Design BFA and Visual Communications MFA programs at the Rochester Institute of Technology, and the lead designer of imgix, a responsive image API startup in San Francisco. Miguel has 20 years experience in teaching, designing interactions, web development, illustration as well as physical and digital product design. He lives in Rochester, NY and collaborates on an anthropological print zine series on race and space with his partner.",
         "linkedin":"https://www.linkedin.com/in/miguelcardona/",
         "website":"",
-        "twitter":"http://twitter.com/miggi"        
+        "twitter":"http://twitter.com/miggi",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDB1OGlqbWg0NWkwbnBtNGc2Z2dhdmphc3IgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"
     },
     {
         "name":"Noah Yamamoto",
@@ -53,22 +51,43 @@
         "bio":"Noah Yamamoto works as a frontend (web) engineer on WhatsApp Web and Desktop. They have taken the lead in product vision and development for numerous features, including Communities, stickers, and more. Prior to joining WhatsApp, Noah completed internships at Marvel, Squarespace, and Facebook.",
         "linkedin":"https://www.linkedin.com/in/~noah/",
         "website":"https://noahyamamoto.com/",
-        "twitter":""        
-    },
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzZjZmNubnA2cmMxMzZmaHMxcTVwMXJnamMgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"
+    },        
     {
         "name":"Bryan Wong",
         "image":"Katrin.jpg",
         "bio":"Bryan Wong builds tools for designers at Meta. His engineering work primarily focuses on developing a Figma plugin to assist designers in building more efficiently and precisely. During his college years, Bryan created many webgl apps and enjoys working on creative web projects. He is open to discussing this kind of work and encourages anyone interested to message him.",
         "linkedin":"",
         "website":"http://wongbryan.github.io/",
-        "twitter":""        
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXM0cXVjNjB2NWc0N2poaHJwNWFudGdramsgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"
     },
     {
-        "name":"Tuhin Chakrabarty",
+        "name":"Sarah Leventhal",
         "image":"Katrin.jpg",
-        "bio":"",
-        "linkedin":"",
-        "website":"http://wongbryan.github.io/",
-        "twitter":""        
-    }                              
+        "bio":"Sarah Leventhal graduated Barnard College in the class of 2021. Majored in computer science on the vision & graphics track. Accepted a position at Mastercard as a front-end engineer on the Click to Pay product. The role includes building out new components and maintaining existing features. Team placement allows for frequent collaboration with the UX design team with a focus on accessibility.",
+        "linkedin":"https://www.linkedin.com/in/sarah-leventhal-04a858164/",
+        "website":"",
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDNoZWo1bmRrNGE2Yzc3MHRtbjA2YzJkbzggY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"                
+    },
+    {
+        "name":"Luis Tolosa",
+        "image":"",
+        "bio":"Hi! My name is Luis Tolosa, I'm currently a Software Engineer at Niantic working on the title Peridot. I've worked on projects ranging from  building a new VR game scratch to an AR Game of Thrones experience! Open to chat about anything XR, Games, and Virtual Production!",
+        "linkedin":"https://www.linkedin.com/in/letolosa",
+        "website":"",
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDNoZWo1bmRrNGE2Yzc3MHRtbjA2YzJkbzggY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"                
+    },
+    {
+        "name":"Neil Chen",
+        "image":"",
+        "bio":"I'm currently a software engineer working on smart buildings tech at Google in a team called Sidewalk Labs. I was part of ADI from 2015-2019. After studying CS at Columbia I worked on algorithmic trading at Goldman Sachs for a year, then worked at a fintech startup that got acquired, and now I work on technologies that we hope will help mitigate climate change at Sidewalk Labs.",
+        "linkedin":"https://www.linkedin.com/in/neilwchen/",
+        "website":"http://neilchen.co/",
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NDNoZWo1bmRrNGE2Yzc3MHRtbjA2YzJkbzggY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"                
+    }                                     
 ]

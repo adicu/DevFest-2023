@@ -9,6 +9,16 @@ import links from "../Data/ExternalLinks.json"
 
 function Schedule(props) {
   /* ============== STYLING (for Window Content) ============= */
+  const date = new Date();
+  var day = date.getDay();
+  var dayIndex;
+  if(day === 0){
+    dayIndex = 6;
+  }
+  else{
+    dayIndex = day - 1;
+  }
+
 
   return (
     <>
@@ -48,7 +58,7 @@ function Schedule(props) {
               <div className="blurred"><img alt="Schedule Locked" src={require("../Assets/Locked/Schedule.jpg")}/> </div>
             </div>
           :          
-          <Tabs>
+          <Tabs defaultIndex={dayIndex}>
             <TabList>
               <Tab>Mon</Tab>
               <Tab>Tue</Tab>
@@ -67,9 +77,17 @@ function Schedule(props) {
                         <a href={links["g-cal"]}>G Calendar</a>
                         {
                           day.events.map((event, index)=>{
-                            return <p>{event}</p>
+                            return <span><p>---</p><p>{event}</p></span>
                           })
                         }
+                        <span className="cursor">|</span>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>                                                
                         </div>
                       </TabPanel>
               })
