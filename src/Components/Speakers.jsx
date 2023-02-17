@@ -99,7 +99,7 @@ function Speakers(props) {
                             {speaker.twitter? <a rel="noreferrer" target="_blank" href={speaker.twitter}><img src={require("../Assets/Icons/twitter-sign.png")} alt="twitter"/></a> : <></>}
                           </span>
                           <br/>
-                          <a rel="noreferrer" target="_blank" href={speaker.event} style={{ fontSize: "1em"}}><img src={require("../Assets/Icons/Schedule-Icon.png")} style={{ marginTop: "10px"}} alt="event"/></a>
+                          <a rel="noreferrer" target="_blank" href={speaker.event} style={{ fontSize: "1.5em"}}><img src={require("../Assets/Icons/event.png")} style={{ marginTop: "10px"}} alt="event"/></a>
                         </p>
                       </div>
                     </div>
