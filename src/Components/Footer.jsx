@@ -66,10 +66,10 @@ function Footer(props) {
             <TabPanel>
               <div className="notepad">
                 <br/> 
-                <p className="a">DevFest is presented by <a href="https://www.adicu.com/">ADI</a></p>
-                <p className="a"><a href="https://discord.gg/fEax3gQeWW">Discord</a></p>
-                <p className="a"><a href="https://www.instagram.com/adicolumbia/">Instagram</a></p>
-                <p className="a"><a href="https://www.facebook.com/adicu/">Facebook<span className="cursor">|</span></a></p>
+                <p className="a">DevFest is presented by <a rel="noreferrer" target="_blank" href="https://www.adicu.com/">ADI</a></p>
+                <p className="a"><a rel="noreferrer" target="_blank" href="https://discord.gg/fEax3gQeWW">Discord</a></p>
+                <p className="a"><a rel="noreferrer" target="_blank" href="https://www.instagram.com/adicolumbia/">Instagram</a></p>
+                <p className="a"><a rel="noreferrer" target="_blank" href="https://www.facebook.com/adicu/">Facebook<span className="cursor">|</span></a></p>
                 <br/>
                 <br/>
                 <br/>

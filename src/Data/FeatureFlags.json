@@ -1,6 +1,6 @@
 {
     "judges": true,
     "speakers": false,
-    "sponsors": false,
+    "sponsors": true,
     "schedule": false
 }

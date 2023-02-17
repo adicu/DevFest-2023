@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "./Icon";
-import styled from "@emotion/styled";
+// import styled from "@emotion/styled";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "../Styling/CustomTabsStyling.css";
 import JUDGES from "../Data/Judges.json";
@@ -11,14 +11,14 @@ function Judges(props) {
   /* ============== STYLING (for Window Content) ============= */
 
   // Heading component
-  const H1 = props.mobile
-    ? // mobile
-      styled.h1`
-        margin-top: 0;
-        font-size: 22px;
-      `
-    : // desktop
-      styled.h1``;
+  // const H1 = props.mobile
+  //   ? // mobile
+  //     styled.h1`
+  //       margin-top: 0;
+  //       font-size: 22px;
+  //     `
+  //   : // desktop
+  //     styled.h1``;
 
   // Paragraph component
   // const P = props.mobile
@@ -96,9 +96,9 @@ function Judges(props) {
                         <p>
                           {judge.name}
                           <span className="label-icons">
-                            {judge.linkedin? <a href={judge.linkedin}><img src={require("../Assets/Icons/linkedin.png")} alt="linkedin"/></a> : <></>}
-                            {judge.website? <a href={judge.website}><img src={require("../Assets/Icons/internet.png")} alt="internet"/></a> : <></>}
-                            {judge.twitter? <a href={judge.twitter}><img src={require("../Assets/Icons/twitter-sign.png")} alt="twitter"/></a> : <></>}
+                            {judge.linkedin? <a rel="noreferrer" target="_blank" href={judge.linkedin}><img src={require("../Assets/Icons/linkedin.png")} alt="linkedin"/></a> : <></>}
+                            {judge.website? <a rel="noreferrer" target="_blank" href={judge.website}><img src={require("../Assets/Icons/internet.png")} alt="internet"/></a> : <></>}
+                            {judge.twitter? <a rel="noreferrer" target="_blank" href={judge.twitter}><img src={require("../Assets/Icons/twitter-sign.png")} alt="twitter"/></a> : <></>}
                           </span>
                         </p>
                       </div>
