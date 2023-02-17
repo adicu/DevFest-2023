@@ -96,9 +96,9 @@ function Judges(props) {
                         <p>
                           {judge.name}
                           <span className="label-icons">
-                            {judge.linkedin? <a href={judge.linkedin}><img src={require("../Assets/Icons/linkedin.png")} alt="linkedin"/></a> : <></>}
-                            {judge.website? <a href={judge.website}><img src={require("../Assets/Icons/internet.png")} alt="internet"/></a> : <></>}
-                            {judge.twitter? <a href={judge.twitter}><img src={require("../Assets/Icons/twitter-sign.png")} alt="twitter"/></a> : <></>}
+                            {judge.linkedin? <a rel="noreferrer" target="_blank" href={judge.linkedin}><img src={require("../Assets/Icons/linkedin.png")} alt="linkedin"/></a> : <></>}
+                            {judge.website? <a rel="noreferrer" target="_blank" href={judge.website}><img src={require("../Assets/Icons/internet.png")} alt="internet"/></a> : <></>}
+                            {judge.twitter? <a rel="noreferrer" target="_blank" href={judge.twitter}><img src={require("../Assets/Icons/twitter-sign.png")} alt="twitter"/></a> : <></>}
                           </span>
                         </p>
                       </div>

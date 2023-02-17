@@ -153,15 +153,15 @@
 }
 
 .notepad .t1{
-    width: 20em;
+    width: 18em;
 }
 
 .notepad .t2{
-    width: 15em;
+    width: 13em;
 }
 
 .notepad .t3{
-    width: 10em;
+    width: 8em;
 }
 
 @keyframes blink {
