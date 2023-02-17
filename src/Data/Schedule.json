@@ -1,44 +1,42 @@
 [
     {
         "day": "Monday",
-        "events":["7:00 PM - Kick Off - URIS 114",
-                "8:00 PM - Kick Off - URIS 114",
-                "9:00 PM - - URIS 144"]
+        "events":["7 PM - Kick Off w/ Prof. Verma [Uris 301]",
+                "8 PM - Introduction to Firebase [Uris 301]",
+                "9 PM - How to Build a Tech Startup w/ Katrin Kaurov [Uris 301]"]
     },
     {
         "day": "Tuesday",  
-        "events":["7:00 PM - AR/VR - URIS 114",
-            "8:00 PM - Competitive Programming Workshop - URIS 114",
-            "9:00 PM - Echo3D - URIS 144"]        
+        "events":["7 PM - AR/VR w/ Prof. Feiner [Math 207]",
+            "8 PM - Competitive Programming Primer: Introduction to Quant Interview Preparation w/ Prof. Lim  [Math 207]",
+            "9 PM - Build a Cloud-Connected AR/VR App with Unity [Math 207]"]        
     },
     {
         "day": "Wednesday",
-        "events":["7:00 PM - Kick Off - URIS 114",
-            "8:00 PM - Kick Off - URIS 114",
-            "9:00 PM - - URIS 144"]        
+        "events":["6 PM - Figma Workshop [Pupin 412]",
+            "7 PM - Product Design 101 and Hands-on Workshop [Pupin 412]",
+            "8 PM - React with a Meta Engineer: Intro Workshop [Math 312]",
+            "9 PM - React with a Meta Engineer: Intermediate Workshop [Math 312]"]        
     },
     {
         "day": "Thursday",
-        "events":["7:00 PM - Kick Off - URIS 114",
-            "8:00 PM - Kick Off - URIS 114",
-            "9:00 PM - - URIS 144"]        
+        "events":["6 PM - Hacking w/ Algorand [Uris 333]",
+            "7 PM - Google Cloud Platform: Dataprep & Dataflow [Uris 333]",
+            "8:30 PM - Demystifying ChatGPT [Uris 333]"]        
     },
     {
         "day": "Friday",
-        "events":["7:00 PM - Kick Off - URIS 114",
-            "8:00 PM - Kick Off - URIS 114",
-            "9:00 PM - - URIS 144"]        
+        "events":["6:30 PM - Opening Ceremony [Uris 141]",
+            "7 PM - Hacking Begins [Uris Library]",
+            "7 PM - Team Formation [URIS 141]"]        
     },
     {
         "day": "Saturday",
-        "events":["7:00 PM - Kick Off - URIS 114",
-            "8:00 PM - Kick Off - URIS 114",
-            "9:00 PM - - URIS 144"]        
+        "events":["2 PM - Alumni Panel [Uris 114]"]        
     },
     {
         "day": "Sunday",
-        "events":["10:00 AM - Project Presentation - URIS 114",
-            "1:00 PM - Prize Presentation - URIS 114",
-            "9:00 PM - - URIS 144"]             
+        "events":["10:00 AM - Judging & Submission Presentations [Uris 141]",
+            "2 PM - Closing Ceremony & Awards [Uris 141]"]             
     }
 ]
