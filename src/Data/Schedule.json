@@ -1,42 +1,48 @@
 [
     {
         "day": "Monday",
-        "events":["7 PM - Kick Off w/ Prof. Verma [Uris 301]",
+        "events":["Feb 20","7 PM - Kick Off w/ Prof. Verma [Uris 301]",
                 "8 PM - Introduction to Firebase [Uris 301]",
                 "9 PM - How to Build a Tech Startup w/ Katrin Kaurov [Uris 301]"]
     },
     {
         "day": "Tuesday",  
-        "events":["7 PM - AR/VR w/ Prof. Feiner [Math 207]",
+        "events":["Feb 21",
+            "7 PM - AR/VR w/ Prof. Feiner [Math 207]",
             "8 PM - Competitive Programming Primer: Introduction to Quant Interview Preparation w/ Prof. Lim  [Math 207]",
             "9 PM - Build a Cloud-Connected AR/VR App with Unity [Math 207]"]        
     },
     {
         "day": "Wednesday",
-        "events":["6 PM - Figma Workshop [Pupin 412]",
+        "events":["Feb 22", 
+            "6 PM - Figma Workshop [Pupin 412]",
             "7 PM - Product Design 101 and Hands-on Workshop [Pupin 412]",
             "8 PM - React with a Meta Engineer: Intro Workshop [Math 312]",
             "9 PM - React with a Meta Engineer: Intermediate Workshop [Math 312]"]        
     },
     {
         "day": "Thursday",
-        "events":["6 PM - Hacking w/ Algorand [Uris 333]",
+        "events":["Feb 23", 
+            "6 PM - Hacking w/ Algorand [Uris 333]",
             "7 PM - Google Cloud Platform: Dataprep & Dataflow [Uris 333]",
             "8:30 PM - Demystifying ChatGPT [Uris 333]"]        
     },
     {
         "day": "Friday",
-        "events":["6:30 PM - Opening Ceremony [Uris 141]",
+        "events":["Feb 24", 
+            "6:30 PM - Opening Ceremony [Uris 141]",
             "7 PM - Hacking Begins [Uris Library]",
             "7 PM - Team Formation [URIS 141]"]        
     },
     {
         "day": "Saturday",
-        "events":["2 PM - Alumni Panel [Uris 141]"]        
+        "events":["Feb 25", 
+            "2 PM - Alumni Panel [Uris 141]"]        
     },
     {
         "day": "Sunday",
-        "events":["10:00 AM - Judging & Submission Presentations [Uris 141]",
+        "events":["Feb 26", 
+            "10:00 AM - Judging & Submission Presentations [Uris 141]",
             "2 PM - Closing Ceremony & Awards [Uris 141]"]             
     }
 ]
