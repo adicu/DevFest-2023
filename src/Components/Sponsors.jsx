@@ -73,7 +73,7 @@ function Sponsors(props) {
 
               <TabPanel>
                 <div className="notepad">
-                  <p style={{ textAlign: "center" }}>Made Possible with help of our sponsors</p>
+                  <p style={{ textAlign: "center" }}>Made Possible With The Help Of Our Sponsors</p>
                   <p style={{ textAlign: "center" }}>
                   <a href="https://www.algorand.com/"><img alt="algorand" className="t1" src={require("../Assets/Sponsors/algorand.png")}/></a>
                   <br/>
@@ -89,7 +89,7 @@ function Sponsors(props) {
                   </p>
                   
                   <br/>
-                  <p style={{ textAlign: "center" }}>Additional Support From</p>
+                  <p style={{ textAlign: "center" }}>And Additional Support From</p>
                   <p style={{ textAlign: "center" }}>
                     <a rel="noreferrer" target="_blank" href="https://cloud.google.com/"><img alt="gcp" className="t3" src={require("../Assets/Sponsors/gcp.png")}/></a>
                     <a rel="noreferrer" target="_blank" href="https://www.figma.com/"><img alt="figma" className="t3" src={require("../Assets/Sponsors/figma.png")}/></a>
