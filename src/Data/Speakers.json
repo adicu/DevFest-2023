@@ -35,7 +35,16 @@
         "website":"",
         "twitter":"",
         "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M2V2ZGZrN21hY29rbm1rdm5rb2liYmJkdmMgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"        
-    },  
+    }, 
+    {
+        "name":"Fabrice Benhamouda",
+        "image":"",
+        "bio":"Fabrice Benhamouda is a Research Fellow at the Algorand Foundation where he conducts research in cryptography and blockchains, and serves as the technical focal point for the Foundation and as an advisor to Algorand developers.Prior to joining Algorand Foundation, Fabrice was a researcher at IBM Research. He obtained his Ph.D. in Computer Science from the École Normale Supérieure, Paris, France in 2016. He was awarded the “Prix de thèse Gilles Kahn 2017,” a French excellence award for Ph.D. theses in computer science, and an honorary mention at the ERCIM Cor Baayen Young Research Award 2017. He has received a best paper award at Eurocrypt 2018 and Eurocrypt 2021.",
+        "linkedin":"https://www.linkedin.com/in/fabrice-benhamouda/",
+        "website":"",
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=N2c1NGM3Z2g5c2ZoYjhicnU0MjVvdjVzcjYgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"        
+    },     
     {
         "name":"Miggi Cardona",
         "image":"",
