@@ -76,16 +76,15 @@ function Sponsors(props) {
                   <p style={{ textAlign: "center" }}>Made Possible With The Help Of Our Sponsors</p>
                   <p style={{ textAlign: "center" }}>
                   <a href="https://www.algorand.com/"><img alt="algorand" className="t1" src={require("../Assets/Sponsors/algorand.png")}/></a>
-                  <br/>
+                  <br/><br/>
                   <a rel="noreferrer" target="_blank" href="https://careers.imc.com/us/en"><img alt="imc-trading" className="t1" src={require("../Assets/Sponsors/imc.png")}/></a>
-                  <a rel="noreferrer" target="_blank" href="https://www.getfrich.com/"><img alt="frich" className="t1" src={require("../Assets/Sponsors/frich.png")}/></a>
-                  <a rel="noreferrer" target="_blank" href="https://console.echo3d.com/#/auth/register-promo?code=Jan32023_114"><img alt="echo3d" className="t1" src={require("../Assets/Sponsors/echo3d.png")}/></a>
-                  <br/>
-                  <br/>
+                  <br/><br/>
+                  <a rel="noreferrer" target="_blank" href="https://console.echo3d.com/#/auth/register-promo?code=Jan32023_114"><img alt="echo3d" className="t1" src={require("../Assets/Sponsors/echo3d.png")}/></a><br/>
                   <br/>
                   <a rel="noreferrer" target="_blank" href="https://careers.bloomberg.com/job/search"><img alt="bloomberg" className="t2" src={require("../Assets/Sponsors/bloomberg.png")}/></a><br/><br/>
                   <a rel="noreferrer" target="_blank" href="https://www.lunchboxentertainment.com/"><img alt="lunchbox" className="t2" src={require("../Assets/Sponsors/lunchbox.png")}/></a><br/><br/>
-                  <a rel="noreferrer" target="_blank" href="https://x-camp.academy/#/"><img alt="xcamp" className="t2" src={require("../Assets/Sponsors/xcamp.png")}/></a>
+                  <a rel="noreferrer" target="_blank" href="https://x-camp.academy/#/"><img alt="xcamp" className="t2" src={require("../Assets/Sponsors/xcamp.png")}/></a><br/>
+                  <a rel="noreferrer" target="_blank" href="https://www.getfrich.com/"><img alt="frich" className="t2" src={require("../Assets/Sponsors/frich.png")}/></a>
                   </p>
                   
                   <br/>
