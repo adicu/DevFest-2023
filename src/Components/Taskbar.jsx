@@ -22,7 +22,7 @@ const Taskbar = () => {
     });
 
     const getTimeLeft = () => {
-        const diff = +new Date("2023-02-20") - +new Date();
+        const diff = +new Date("2023-02-21") - +new Date();
         var timeLeft = {};
         if (diff > 0){
             timeLeft = {
