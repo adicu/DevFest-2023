@@ -53,7 +53,7 @@ function Footer(props) {
         winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="280px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={2880} // Starting Y position of window in mobile mode
+        winYMobile={2980} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>

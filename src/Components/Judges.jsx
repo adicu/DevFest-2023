@@ -57,7 +57,7 @@ function Judges(props) {
         winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="320px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={1695} // Starting Y position of window in mobile mode
+        winYMobile={1795} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>
