@@ -57,7 +57,7 @@ function Speakers(props) {
         winWidthMobile="95vw" // Window width on mobile
         winHeightMobile="400px" // Window height on mobile
         winXMobile={10} // Starting X position of window in mobile mode
-        winYMobile={1275} // Starting Y position of window in mobile mode
+        winYMobile={1375} // Starting Y position of window in mobile mode
       >
         {/* ================== WINDOW CONTENT ======================== */}
         <div>
