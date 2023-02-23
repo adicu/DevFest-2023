@@ -12,6 +12,7 @@ import Wong from  "../../Assets/Speakers/wong.jpg";
 import Yamamoto from  "../../Assets/Speakers/yamamoto.jpg";
 import Chen from  "../../Assets/Speakers/chen.jpg";
 import Benhamouda from  "../../Assets/Speakers/benhamouda.jpg";
+import Chakrabarty from  "../../Assets/Speakers/chakrabarty.jpg";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -26,5 +27,6 @@ export default {
     Wong,
     Yamamoto,
     Chen,
-    Benhamouda
+    Benhamouda,
+    Chakrabarty
 }

@@ -73,6 +73,15 @@
         "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MXM0cXVjNjB2NWc0N2poaHJwNWFudGdramsgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"
     },
     {
+        "name":"Tuhin Chakrabarty",
+        "image":"Katrin.jpg",
+        "bio":"Tuhin Chakrabarty is a Ph.D. candidate in Computer Science at Columbia University. Within the department, he is a part of the Natural Language Processing group,  advised by Smaranda Muresan. His research is supported by the Columbia Center of Artificial Intelligence & Technology (CAIT) & Amazon Science Ph.D. Fellowship. He was also a Computational Journalism fellow at The New York Times R&D. Tuhin's research interests are broadly in Natural Language Processing and Machine Learning, with a special focus on Computational Creativity. His overarching research question centers around how we can use large language(vision) models for creativity.",
+        "linkedin":"",
+        "website":"https://tuhinjubcse.github.io/",
+        "twitter":"",
+        "event":"https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NWM0MjRzYzJwbmQwbnBqMnZjNnRhOXZ2NGkgY18wOWE2ZGFmMWJkYzNjZGI2OGI5ZDVlMzg5NGJhNTQ5ZTkxYzliYmRiOGVlOTU2OWU1ZjgwNGNiYjFiZjBmYmE3QGc&tmsrc=c_09a6daf1bdc3cdb68b9d5e3894ba549e91c9bbdb8ee9569e5f804cbb1bf0fba7%40group.calendar.google.com"
+    },    
+    {
         "name":"Sarah Leventhal",
         "image":"Katrin.jpg",
         "bio":"Sarah Leventhal graduated Barnard College in the class of 2021. Majored in computer science on the vision & graphics track. Accepted a position at Mastercard as a front-end engineer on the Click to Pay product. The role includes building out new components and maintaining existing features. Team placement allows for frequent collaboration with the UX design team with a focus on accessibility.",
